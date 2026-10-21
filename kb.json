@@ -1,0 +1,51 @@
+{
+  "kbVersion": 1,
+  "course": {
+    "code": "18.100B",
+    "title": "Real Analysis",
+    "instructor": "Tobias Holck Colding",
+    "term": "Spring 2025",
+    "catalogId": "7f1619b5-6db3-41b3-ab19-5394974fc9ce",
+    "courseUrl": "https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/"
+  },
+  "coverage": {
+    "lecturesCovered": 1,
+    "lecturesTotal": 25,
+    "transcripts": 1,
+    "wikiLecturePages": 1,
+    "wikiTopicPages": 5
+  },
+  "materials": {
+    "primary": "notes",
+    "slideDecks": {
+      "available": 0,
+      "transcribed": 0
+    },
+    "notes": {
+      "available": 25,
+      "transcribed": 1,
+      "note": "Typed LaTeX lecture notes by the instructor, one PDF per lecture and per exam review (25), plus an all-in-one PDF. Transcribed page by page to raw/notes/ with the mathematics in LaTeX. There are no slides: the lectures are given at the blackboard."
+    },
+    "method": "page-images",
+    "figuresAudited": false,
+    "figureAudit": {
+      "decksAudited": 0,
+      "decksTotal": 0,
+      "note": "false because no visual audit was run, not because something is unchecked: the transcribed notes (Lecture 1) contain no figures. Every equation in the Lecture 1 notes transcription was compared against the PDF's text layer in the parent; the prose was taken from the text layer, which is clean for pdfTeX output."
+    }
+  },
+  "provenance": {
+    "builtBy": [
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+    ],
+    "caveats": [
+      "Covers Lecture 1 only (video 1 of 25: 23 lectures and two exam reviews). Topic pages reflect Lecture 1 only.",
+      "Completeness of R is deferred by the lecture to a later lecture and is not yet in this KB; the KB does not supply a definition.",
+      "Transcripts are a light copy-edit of OCW's professional captions; uncertain spots are marked [Ed: ...], and the verbatim captions are kept in raw/transcripts/original/.",
+      "The lecture notes transcription was read from page images by Sonnet; the parent checked every equation against the PDF text layer."
+    ]
+  },
+  "entryPoint": "INDEX.md",
+  "updated": "2026-10-21"
+}

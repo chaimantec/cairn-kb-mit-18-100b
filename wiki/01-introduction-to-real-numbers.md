@@ -156,11 +156,11 @@ The notes give the same argument in three sentences (notes p. 4). The board vers
 
 ## Where the lecture stops
 
-The one word of "$\mathbf{R}$ is a complete ordered field containing $\mathbf{Q}$" still unexplained is **complete**. Colding says he will define it in a later lecture (≈13:39–14:27, ≈51:29). The course's Lecture 2 is titled "Introduction to Real Numbers (cont.)" and its reading is TBB Sections 1.5–1.6, but this knowledge base does not yet cover it. He closes by asking for patience. In his experience, writing proofs takes students some time to get the hang of; a few weeks or months in, "things will really turn around", and it becomes more fun (≈1:05:20).
+In the statement that $\mathbf{R}$ is a complete ordered field containing $\mathbf{Q}$, the one word still unexplained is **complete**. Colding says he will define it in a later lecture (≈13:39–14:27, ≈51:29). The course's Lecture 2 is titled "Introduction to Real Numbers (cont.)" and its reading is TBB Sections 1.5–1.6, but this knowledge base does not yet cover it. He closes by asking for patience. In his experience, writing proofs takes students some time to get the hang of; a few weeks or months in, "things will really turn around", and it becomes more fun (≈1:05:20).
 
 ## Related pages
 
-- [The real numbers](real-numbers.md): what "$\mathbf{R}$ is a complete ordered field containing $\mathbf{Q}$" means, and what is still to come.
+- [The real numbers](real-numbers.md): what it means that $\mathbf{R}$ is a complete ordered field containing $\mathbf{Q}$, and what is still to come.
 - [The rational numbers](rational-numbers.md): quotients, equality, the operations, the order, and well-definedness.
 - [Fields and ordered fields](fields-and-ordered-fields.md): the eleven field axioms, ordered sets and ordered fields, and the consequences proved so far.
 - [The intermediate value theorem](intermediate-value-theorem.md): the course's motivating example.

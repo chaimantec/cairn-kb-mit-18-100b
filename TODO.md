@@ -26,13 +26,14 @@ notes are transcribed to `raw/notes/`. PDFs link only; no images (user's choice)
 
 ### Wiki
 - [x] wiki/01-introduction-to-real-numbers.md
-- [ ] Topic pages (cross-lecture concepts)
-- [ ] INDEX.md table of contents
+- [x] Topic pages: real-numbers, rational-numbers, fields-and-ordered-fields, intermediate-value-theorem, writing-proofs
+- [x] INDEX.md table of contents
 
 ### Publish
-- [ ] kb.json — coverage, materials.method, provenance caveats
-- [ ] LICENSE.md — CC BY-NC-SA 4.0 (OCW)
-- [ ] verify_kb.py clean, and its review section read
+- [x] kb.json — coverage, materials.method, provenance caveats
+- [x] LICENSE.md — CC BY-NC-SA 4.0 (OCW)
+- [x] verify_kb.py clean, and its review section read
+  - All hard checks OK; 425 formulas render in chat KaTeX and on github.com (3 quote-before-$ fixes). Review: partial coverage stated at top of INDEX.md; the one numeric claim ("Lecture 1 notes contain no figures") is true; open TODO boxes are this run's remaining publish steps and lectures 2–25.
 - [ ] Commit and push
 - [ ] PATCH kbUrl onto the catalog entry
 - [ ] Move this run's finished sections to BUILD_LOG.md; TODO.md keeps only open work
