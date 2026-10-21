@@ -5,39 +5,6 @@ only unchecked work. Tick a box the moment its artifact is written, and commit
 this file with it. When a run is committed and pushed, move its section verbatim
 to [`BUILD_LOG.md`](BUILD_LOG.md): nothing ticked stays here.
 
-## Run 1 — Lecture 1 (2026-10-21)
-
-Scope: position 01 only. Material per lecture is a typed LaTeX notes PDF (no slides);
-notes are transcribed to `raw/notes/`. PDFs link only; no images (user's choice).
-
-### Transcript
-- [x] 01 Lecture 1: Introduction to Real Numbers — video BWvjy0a1Ffg — verbatim captions in `raw/transcripts/original/`
-- [x] 01 edited transcript (Sonnet), checked: timestamps, numbers, per-paragraph word ratio
-  - 82/82 markers identical. Number diff fully explained by restorations ("2 set"→"Z set", "N2"→"m1"/"m2", "O1/O2"→"0₁/0₂"). Ratio outliers 27:26 (1.24), 47:33 (1.12), 50:37 (1.12): Ed-mark insertions and the zero subscripts, wording unchanged.
-  - Parent: removed the agent's inferred *[Student question, inaudible]* at 1:05:20 (no evidence in captions); added Ed marks at 19:21, 21:37, 51:29, 1:02:19.
-
-### Crawl
-- [x] Fetch course site index: https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/
-- [x] Download linked PDFs (gitignored)
-- [x] Write sources.md
-
-### Notes
-- [x] raw/notes/01-introduction-to-real-numbers.md (Sonnet), every equation checked against the text layer
-
-### Wiki
-- [x] wiki/01-introduction-to-real-numbers.md
-- [x] Topic pages: real-numbers, rational-numbers, fields-and-ordered-fields, intermediate-value-theorem, writing-proofs
-- [x] INDEX.md table of contents
-
-### Publish
-- [x] kb.json — coverage, materials.method, provenance caveats
-- [x] LICENSE.md — CC BY-NC-SA 4.0 (OCW)
-- [x] verify_kb.py clean, and its review section read
-  - All hard checks OK; 425 formulas render in chat KaTeX and on github.com (3 quote-before-$ fixes). Review: partial coverage stated at top of INDEX.md; the one numeric claim ("Lecture 1 notes contain no figures") is true; open TODO boxes are this run's remaining publish steps and lectures 2–25.
-- [ ] Commit and push
-- [ ] PATCH kbUrl onto the catalog entry
-- [ ] Move this run's finished sections to BUILD_LOG.md; TODO.md keeps only open work
-
 ## Future runs — lectures not yet built
 
 Catalog positions (the midterm review sits at position 12, so positions after it run one
