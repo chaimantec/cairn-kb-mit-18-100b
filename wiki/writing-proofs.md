@@ -1,8 +1,8 @@
 # Writing proofs
 
-**What 18.100B expects a proof to look like, as stated so far: the worked examples of Lectures 1 and 2, and Lecture 3's advice on writing a formal proof.**
+**What 18.100B expects a proof to look like, as stated so far: the worked examples of Lectures 1 and 2, Lecture 3's advice on writing a formal proof, and Lecture 4's first proofs with $\epsilon$ and $N$.**
 
-Learning to write a mathematical proof is one of the course's two stated goals; the other is proving the theorems of calculus (Lecture 1, ≈4:44; notes p. 1). Lecture 3, "How to Write a Proof; Archimedean Property", is given over to it: it rewrites two of Lecture 2's proofs as formal proofs and says what that means. What follows is what Lectures 1 to 3 say and show.
+Learning to write a mathematical proof is one of the course's two stated goals; the other is proving the theorems of calculus (Lecture 1, ≈4:44; notes p. 1). Lecture 3, "How to Write a Proof; Archimedean Property", is given over to it: it rewrites two of Lecture 2's proofs as formal proofs and says what that means. What follows is what Lectures 1 to 4 say and show.
 
 ## Why rigor
 
@@ -47,9 +47,21 @@ Two smaller habits from the same lecture. Establish only the properties you need
 
 **Write down what you want to show.** Colding's own board proof went wrong in a way that makes the point. Partway through the first step he began bounding the square of the smaller number from above, which is what the second step needs, before stopping to ask "what am I trying to prove here?" (≈39:04–46:54). His diagnosis: "I fell into the trap. I was doing it so formally that I lost track of what I was doing" (≈50:02). And a few minutes later: "if I really had written that before, then I wouldn't have been in trouble, because I was trying to prove something else" (≈58:08). The formal proof, he adds, is still "much easier to read afterwards" (≈50:02).
 
+## Proofs with $\epsilon$ and $N$ (Lecture 4)
+
+Lecture 4's proofs about limits all have one shape, set by the definition of convergence: for every $\epsilon \gt 0$ there is an $N$ such that $\vert a_n - a \vert \lt \epsilon$ for $n \geq N$. A proof is handed $\epsilon$, must produce $N$, and must then show the inequality for every $n$ past it. For $0.999 \cdots = 1$: "for your given epsilon, I specify a capital N", and then prove that every term beyond it is within $\epsilon$ of the limit (Lecture 4, ≈14:36–15:23). The $\epsilon$ is not yours to choose: "someone else is allowed to pick the epsilon" (≈7:11). The proofs are on the [Lecture 4 page](04-sequences-convergence.md).
+
+Three habits recur.
+
+- **Apply the hypothesis to the number you need.** Because convergence holds for every positive number, a proof may use it for $1$, $\frac{\epsilon}{2}$, $\frac{\epsilon}{\vert C \vert}$ or $\frac{\vert a \vert}{2}$ rather than the given $\epsilon$. Asked about this, Colding answered: "I'm basically using that for all epsilon, that it wasn't just for a fixed epsilon" (≈42:08). In the product proof he adds $1$ to the denominators, $\frac{\epsilon}{2 (\vert b \vert + 1)}$, because "I don't want to have something where if b was zero, then it really didn't make any sense what I wrote" (≈49:24).
+- **Choose $N$ last.** When two hypotheses each give an $N$, take the larger. In the proof for sums, $N_a$ and $N_b$ come first, and only then "set capital N equal to the maximum of these two" (≈37:16).
+- **Compare through something halfway between.** To compare $a_n b_n$ with $a b$, subtract and add $a_n b$. Colding calls this the main takeaway of the product proof, and a trick that comes back, for instance in the Leibniz rule for derivatives (≈43:44, ≈53:24–54:10). See [algebraic properties of limits](algebraic-properties-of-limits.md).
+
+Lecture 4 also uses the distinction from Lecture 3 between a formal proof and a scrap-paper argument. The first two algebraic properties are written "formally, as we talked about last time"; for the third and fourth Colding gives what is "very, very close to a formal proof but it's more like what you would have on a piece of scrap paper" (≈30:25). The notes keep that split, with outlines that end in "details to fill in" (Lecture 4 notes p. 4); on the board the product proof ended up complete (≈51:53).
+
 ## Board versus notes
 
-Colding says the posted notes are written "slightly more rigorous", with "a little bit more meat", than the shorter board versions, and asks students to read them too (≈47:33–48:18). For Lecture 1, the notes and the board do differ in places. The board names the axiom behind each step of the ordered-field proof, while the notes compress it into three sentences. The board makes the commutativity step in the zero proof explicit, while the notes do not. In Lecture 2 the differences are of a different kind: the board and the notes define the set in the proof of $\sqrt{2} \in \mathbf{R}$ over different number systems, and label the steps of the last corollary differently. The [Lecture 2 page](02-introduction-to-real-numbers-cont.md#board-versus-notes) lists them. In Lecture 3 the formal proofs are the same on the board and in the notes in structure, but they name the auxiliary numbers differently and justify some bounds by different routes; the [Lecture 3 page](03-how-to-write-a-proof-archimedean-property.md#board-versus-notes) lists them.
+Colding says the posted notes are written "slightly more rigorous", with "a little bit more meat", than the shorter board versions, and asks students to read them too (≈47:33–48:18). For Lecture 1, the notes and the board do differ in places. The board names the axiom behind each step of the ordered-field proof, while the notes compress it into three sentences. The board makes the commutativity step in the zero proof explicit, while the notes do not. In Lecture 2 the differences are of a different kind: the board and the notes define the set in the proof of $\sqrt{2} \in \mathbf{R}$ over different number systems, and label the steps of the last corollary differently. The [Lecture 2 page](02-introduction-to-real-numbers-cont.md#board-versus-notes) lists them. In Lecture 3 the formal proofs are the same on the board and in the notes in structure, but they name the auxiliary numbers differently and justify some bounds by different routes; the [Lecture 3 page](03-how-to-write-a-proof-archimedean-property.md#board-versus-notes) lists them. In Lecture 4 the board goes further than the notes: it proves the product property in full and carries the reciprocal property almost to the end, where the notes give outlines; the [Lecture 4 page](04-sequences-convergence.md#board-versus-notes) lists the differences.
 
 ## Expect it to take time
 
@@ -60,3 +72,4 @@ Colding says students need patience: learning to write proofs takes a little tim
 - [Lecture 1 — Introduction to Real Numbers](01-introduction-to-real-numbers.md): the case for rigor and three model proofs.
 - [Lecture 2 — Introduction to Real Numbers (cont.)](02-introduction-to-real-numbers-cont.md): proofs by contradiction, an equality proved as two inequalities, and Colding's remarks on method.
 - [Lecture 3 — How to Write a Proof; Archimedean Property](03-how-to-write-a-proof-archimedean-property.md): scrap paper versus the formal proof, and two of Lecture 2's proofs written out formally.
+- [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): the first proofs with $\epsilon$ and $N$, formal proofs beside outlines, and the halfway trick.

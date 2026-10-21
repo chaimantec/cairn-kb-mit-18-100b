@@ -69,7 +69,8 @@ printed slips, which slides were rendered and why) goes in
   Delegate the reading to Sonnet (pages as one contiguous range). The prose may be copied
   from the text layer, which is clean pdfTeX; equations never (fractions flatten). Check
   every equation against the text layer in the parent. A slip the agent reports is a claim:
-  an incomplete step is not a typo.
+  an incomplete step is not a typo. An agent's LaTeX can arrive with `\f`, `\v`, `\t`, `\r` turned into control
+  characters by an escape-interpreting string: grep the file for them before checking equations.
 - **Notation.** The notes set number systems and named sets in bold (`CMBX12`), not
   blackboard bold: $\mathbf{N}$, $\mathbf{Z}$, $\mathbf{Q}$, $\mathbf{R}$, $\mathbf{F}$,
   $\mathbf{S}$. Read the font from the text layer when a new symbol's style matters. In this

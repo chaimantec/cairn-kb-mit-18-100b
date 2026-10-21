@@ -1,6 +1,6 @@
 # The Archimedean property
 
-**Every real number is exceeded by some natural number; equivalently, $\mathbf{N}$ is not bounded from above. The course proves it from completeness in Lecture 2, uses it to find a rational number between any two reals, and writes the proof out formally in Lecture 3.**
+**Every real number is exceeded by some natural number; equivalently, $\mathbf{N}$ is not bounded from above. The course proves it from completeness in Lecture 2, uses it to find a rational number between any two reals, and writes the proof out formally in Lecture 3. Lecture 4 uses it to prove that $0.999 \cdots = 1$.**
 
 ## Statement
 
@@ -28,6 +28,8 @@ The notes start this proof "let $M$ be the least upper bound" and call it $\alph
 
 This corollary is in the notes only; the Lecture 3 video does not reach it. The notes leave the last step to the reader. The same notes go on to define convergence of a sequence; see [sequences and limits](sequences-and-limits.md).
 
+**First use** (Lecture 4 notes p. 3; Lecture 4, ≈12:54). In the proof that the sequence $0.9$, $0.99$, $0.999$, … converges to $1$, the Archimedean property is what lets one "choose $N$ such that $\frac{1}{N} \lt \epsilon$". Then for $n \geq N$, $\vert a_n - 1 \vert = 10^{-n} \lt \frac{1}{n} \leq \frac{1}{N} \lt \epsilon$. See the [Lecture 4 page](04-sequences-convergence.md).
+
 ## Corollary: a rational number between any two reals
 
 **Corollary** (Lecture 2 notes pp. 3–4; ≈1:00:49–1:08:14). If $x \lt y$ are real numbers, there is a rational number $\frac{m}{n}$ with
@@ -44,3 +46,4 @@ The notes leave both final inequalities to the reader, and neither the notes nor
 
 - [Lecture 2 — Introduction to Real Numbers (cont.)](02-introduction-to-real-numbers-cont.md): the statement, the proof and the rational number between two reals.
 - [Lecture 3 — How to Write a Proof; Archimedean Property](03-how-to-write-a-proof-archimedean-property.md): the formal proof, and in the notes the corollary that $\frac{1}{n} \lt \epsilon$ for some $n$.
+- [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): the property used to choose $N$ in the proof that $0.999 \cdots = 1$.

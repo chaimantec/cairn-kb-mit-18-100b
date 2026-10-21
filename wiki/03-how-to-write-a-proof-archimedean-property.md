@@ -193,7 +193,7 @@ The notes continue (notes p. 5):
 
 $$\vert a_n - a \vert \lt \epsilon .$$
 
-The notes also ask "When does a limit exist?" without answering it on the page. On the OCW lecture list, Lecture 4 is "Sequences; Convergence" (TBB Sections 2.1–2.2 and 2.4–2.7), which this knowledge base does not yet cover. See [sequences and limits](sequences-and-limits.md).
+The notes also ask "When does a limit exist?" without answering it on the page. [Lecture 4](04-sequences-convergence.md), "Sequences; Convergence" (TBB Sections 2.1–2.2 and 2.4–2.7), gives Examples 2 and 3 and the definition on the board. See [sequences and limits](sequences-and-limits.md).
 
 ## Board versus notes
 
@@ -211,7 +211,7 @@ Where they differ, this page follows the notes and gives the board's version wit
 
 ## Where the lecture stops
 
-The proof that $\sqrt{2}$ is real and the proof of the Archimedean property are now written out as formal proofs, and the course has its notation for least upper and greatest lower bounds, $\sup$ and $\inf$. The lecture stops having defined a sequence, with the meaning of a limit promised for next time (≈1:19:05). The notes already give the definition of convergence. On the OCW lecture list, Lecture 4 is "Sequences; Convergence" (TBB Sections 2.1–2.2 and 2.4–2.7) and Lecture 5 is "Monotone Convergence Theorem". Neither is in this knowledge base yet.
+The proof that $\sqrt{2}$ is real and the proof of the Archimedean property are now written out as formal proofs, and the course has its notation for least upper and greatest lower bounds, $\sup$ and $\inf$. The lecture stops having defined a sequence, with the meaning of a limit promised for next time (≈1:19:05). The notes already give the definition of convergence. [Lecture 4](04-sequences-convergence.md), "Sequences; Convergence" (TBB Sections 2.1–2.2 and 2.4–2.7), takes it from there. On the OCW lecture list, Lecture 5 is "Monotone Convergence Theorem", which is not in this knowledge base yet.
 
 ## Related pages
 
@@ -222,3 +222,4 @@ The proof that $\sqrt{2}$ is real and the proof of the Archimedean property are 
 - [The Archimedean property](archimedean-property.md): both formulations, both proofs, and the corollaries.
 - [Sequences and limits](sequences-and-limits.md): the definition of a sequence and the notes' definition of convergence.
 - [Lecture 2 — Introduction to Real Numbers (cont.)](02-introduction-to-real-numbers-cont.md): the previous lecture, where both results were first proved.
+- [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): the next lecture, on convergence.

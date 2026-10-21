@@ -52,6 +52,7 @@ Asked whether the half line above is complete, Colding answered that a subset of
 
 - **$\sqrt{2} \in \mathbf{R}$.** The positive $\alpha$ with $\alpha^2 = 2$ is $\sup A$ for $A = \lbrace x \in \mathbf{R} \vert x \gt 0 \text{ and } x^2 \leq 2 \rbrace$ (Lecture 3 notes pp. 2–3). See [the square root of 2](square-root-of-2.md).
 - **The Archimedean property.** If $\mathbf{N}$ were bounded from above, its supremum $\alpha$ would have $\alpha - 1$ as a smaller upper bound (Lecture 2 notes p. 3; Lecture 3 notes p. 4). See [the Archimedean property](archimedean-property.md).
+- **A convergent sequence is bounded.** On the board, the conclusion is that the $\sup$ of the set of all $\vert a_n \vert$ is at most $\max\lbrace C, \vert a \vert + 1 \rbrace$. Colding writes $\sup$ rather than a maximum because "if it's infinitely many numbers, it's not clear there is a maximum", and the bound need not be the sup itself (Lecture 4, ≈21:33, ≈25:43). See [sequences and limits](sequences-and-limits.md).
 - **$\mathbf{Q}$ is not complete.** The rationals whose square is at most $2$ have an upper bound in $\mathbf{Q}$ but no least upper bound in $\mathbf{Q}$ (Lecture 2, ≈1:12:05–1:12:51). See [the rational numbers](rational-numbers.md).
 
 On the OCW lecture list, Lecture 9 is "Limsup and Liminf; Power Series; Continuous Functions; Exponential Function", which this knowledge base does not yet cover.
@@ -60,3 +61,4 @@ On the OCW lecture list, Lecture 9 is "Limsup and Liminf; Power Series; Continuo
 
 - [Lecture 2 — Introduction to Real Numbers (cont.)](02-introduction-to-real-numbers-cont.md): upper bounds, least upper bounds and completeness.
 - [Lecture 3 — How to Write a Proof; Archimedean Property](03-how-to-write-a-proof-archimedean-property.md): lower bounds, the notation $\sup$ and $\inf$, and the examples about the surrounding set.
+- [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): a $\sup$ in the proof that a convergent sequence is bounded. The Lecture 4 notes repeat the definitions, and call $\sup A$ "the greatest lower bound of $A$", a [printed slip](../raw/notes/04-sequences-convergence.md#printed-slips).

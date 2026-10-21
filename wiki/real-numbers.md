@@ -28,10 +28,13 @@ The sentence above is the answer, and it is exactly what the proof of the interm
 
 **In Lecture 3:** nothing new about what $\mathbf{R}$ is, but the tools for working in it. Lower bounds and the greatest lower bound join upper bounds, with the notation $\sup A$ and $\inf A$, and Colding stresses that from here on the course concentrates on $\mathbf{R}$: when a problem does not name the larger set, it is $\mathbf{R}$ (Lecture 3, ≈14:56; Lecture 3 notes p. 1). The proofs that $\sqrt{2} \in \mathbf{R}$ and of the Archimedean property are written out again as formal proofs, and asked which properties of $\mathbf{R}$ the first one uses, Colding named the ordering, the ordered-field structure and completeness (≈1:06:55). See [Lecture 3](03-how-to-write-a-proof-archimedean-property.md) and [supremum and infimum](supremum-and-infimum.md).
 
-**Not yet:** Lecture 3 defines a sequence of real numbers and, in the notes, convergence, and leaves limits for the next lecture (≈1:19:05). On the OCW lecture list, Lecture 4 is "Sequences; Convergence" and Lecture 5 is "Monotone Convergence Theorem". **This knowledge base covers Lectures 1 to 3 only.** See [sequences and limits](sequences-and-limits.md).
+**In Lecture 4:** sequences of real numbers and their limits. Convergence is defined with $\epsilon$ and $N$; the Archimedean property proves that $0.999 \cdots = 1$; a convergent sequence is bounded; limits respect sums, products and quotients; and a sequence converges to $a$ exactly when all its subsequences do. See [Lecture 4](04-sequences-convergence.md), [sequences and limits](sequences-and-limits.md), [algebraic properties of limits](algebraic-properties-of-limits.md) and [subsequences](subsequences.md).
+
+**Not yet:** on the OCW lecture list, Lecture 5 is "Monotone Convergence Theorem" and Lecture 6 is "Cauchy Convergence Theorem". **This knowledge base covers Lectures 1 to 4 only.**
 
 ## Lectures
 
 - [Lecture 1 — Introduction to Real Numbers](01-introduction-to-real-numbers.md): the defining sentence, the motivation, and every part of it except completeness.
 - [Lecture 2 — Introduction to Real Numbers (cont.)](02-introduction-to-real-numbers-cont.md): completeness, the existence of $\mathbf{R}$ (taken for granted), $\sqrt{2} \in \mathbf{R}$, and the Archimedean property.
 - [Lecture 3 — How to Write a Proof; Archimedean Property](03-how-to-write-a-proof-archimedean-property.md): $\sup$ and $\inf$, and formal proofs of $\sqrt{2} \in \mathbf{R}$ and the Archimedean property.
+- [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): limits of sequences of real numbers.
