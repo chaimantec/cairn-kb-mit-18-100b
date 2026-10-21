@@ -85,7 +85,12 @@ printed slips, which slides were rendered and why) goes in
   *[Ed: …]* mark rather than correcting silently. Ed marks are spelled out like the
   speech around them, never notation.
 - **Not yet covered.** Topic pages state what later lectures will add only by their OCW
-  titles and readings, never by supplying the content; say "not yet in this KB".
+  titles and readings, never by supplying the content; say "not yet in this KB". When a
+  lecture is added, grep all of `wiki/` for "not yet" and for its title, and rewrite every
+  sentence that still says it is missing, on lecture pages as well as topic pages.
+- **Notes can run ahead of the video.** The notes may print material the lecture never
+  reaches (a corollary, examples, the next definition). Give it on the lecture page under
+  its own heading, marked as notes-only, and cite it by page with no timestamp.
 
 ## Rebuilding
 

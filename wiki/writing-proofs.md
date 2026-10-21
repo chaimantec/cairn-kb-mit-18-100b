@@ -1,8 +1,8 @@
 # Writing proofs
 
-**What 18.100B expects a proof to look like, as stated so far, with the course's worked examples from Lectures 1 and 2.**
+**What 18.100B expects a proof to look like, as stated so far: the worked examples of Lectures 1 and 2, and Lecture 3's advice on writing a formal proof.**
 
-Learning to write a mathematical proof is one of the course's two stated goals; the other is proving the theorems of calculus (Lecture 1, ≈4:44; notes p. 1). Lecture 3 is titled "How to Write a Proof; Archimedean Property" on the OCW lecture list, but this knowledge base does not yet cover it. What follows is what Lectures 1 and 2 say and show.
+Learning to write a mathematical proof is one of the course's two stated goals; the other is proving the theorems of calculus (Lecture 1, ≈4:44; notes p. 1). Lecture 3, "How to Write a Proof; Archimedean Property", is given over to it: it rewrites two of Lecture 2's proofs as formal proofs and says what that means. What follows is what Lectures 1 to 3 say and show.
 
 ## Why rigor
 
@@ -31,9 +31,25 @@ Lecture 2 also models two habits worth copying.
 
 A further lesson came from the students. In step 2 of the proof the number $h$ had to satisfy two bounds at once, $h \lt 1$ and $h \lt \frac{2 - x^2}{2 x + 1}$, and the board had not said so. A student caught it, and Colding agreed (≈1:13:42–1:15:17). The full proofs are on the [Lecture 2 page](02-introduction-to-real-numbers-cont.md).
 
+## Scrap paper and the formal proof (Lecture 3)
+
+Lecture 3 separates two activities: working out *why* something is true, and writing a proof of it (≈0:00). Lecture 2's proof that $\sqrt{2}$ is real was the first kind, "what you would be writing on the scrap paper". If you were handing a proof in or showing it to somebody, you would write it as Lecture 3 does (≈23:41–24:27). Writing proofs this way "may seem like a formal thing. Why bother with that? But it's really, really useful. And the more complicated things become, the more useful it is" (≈22:52). To keep attention on the writing, Colding reuses two results the class has already seen, the existence of a positive $\alpha$ with $\alpha^2 = 2$ and the Archimedean property (≈1:08:27–1:09:15). Both proofs are on the [Lecture 3 page](03-how-to-write-a-proof-archimedean-property.md).
+
+His summary of the structure, for a proof like the one for $\alpha^2 = 2$ (≈1:04:36–1:06:09):
+
+1. **Divide the proof into its steps** and write each step separately. Here there were two, $\alpha^2 \leq 2$ and $\alpha^2 \geq 2$.
+2. **Say up front how each step is proved.** Both were by contradiction, so say so, and then assume the negation of what you want to prove.
+3. **Say where the contradiction will come from**, "if you can, and it doesn't feel too much". For the second step: there will be a number larger than $\alpha$ whose square is still less than $2$, contradicting that $\alpha$ is an upper bound (≈54:06–55:49). The written Archimedean proof does the same: "we will get the desired contradiction by showing that alpha minus 1 is also an upper bound" (≈1:11:43–1:12:33).
+4. **Define the objects you need, with no motivation.** The number $h = \frac{\alpha^2 - 2}{4 \alpha}$ is simply set, though "obviously, if this was the first time you would do it, you wouldn't just come up with this sort of thing": "This is coming from the scrap paper that you had" (≈35:02). In the formal proof "that seems to come out of nowhere" (≈1:06:09). In Lecture 2, by contrast, the calculation came first and $h$ appeared at the end (≈50:02–50:50).
+5. **Establish the property that gives the contradiction**, and end with a line tying the steps together: "Together parts 1 and 2 show that $\alpha^2 = 2$; completing the proof" (notes p. 3; ≈1:04:36).
+
+Two smaller habits from the same lecture. Establish only the properties you need, because establishing others "just makes it confusing" (≈27:43–28:28). And "it's always good to err on more details than fewer details", even when some steps come to feel almost too trivial (≈33:29–34:16).
+
+**Write down what you want to show.** Colding's own board proof went wrong in a way that makes the point. Partway through the first step he began bounding the square of the smaller number from above, which is what the second step needs, before stopping to ask "what am I trying to prove here?" (≈39:04–46:54). His diagnosis: "I fell into the trap. I was doing it so formally that I lost track of what I was doing" (≈50:02). And a few minutes later: "if I really had written that before, then I wouldn't have been in trouble, because I was trying to prove something else" (≈58:08). The formal proof, he adds, is still "much easier to read afterwards" (≈50:02).
+
 ## Board versus notes
 
-Colding says the posted notes are written "slightly more rigorous", with "a little bit more meat", than the shorter board versions, and asks students to read them too (≈47:33–48:18). For Lecture 1, the notes and the board do differ in places. The board names the axiom behind each step of the ordered-field proof, while the notes compress it into three sentences. The board makes the commutativity step in the zero proof explicit, while the notes do not. In Lecture 2 the differences are of a different kind: the board and the notes define the set in the proof of $\sqrt{2} \in \mathbf{R}$ over different number systems, and label the steps of the last corollary differently. The [Lecture 2 page](02-introduction-to-real-numbers-cont.md#board-versus-notes) lists them.
+Colding says the posted notes are written "slightly more rigorous", with "a little bit more meat", than the shorter board versions, and asks students to read them too (≈47:33–48:18). For Lecture 1, the notes and the board do differ in places. The board names the axiom behind each step of the ordered-field proof, while the notes compress it into three sentences. The board makes the commutativity step in the zero proof explicit, while the notes do not. In Lecture 2 the differences are of a different kind: the board and the notes define the set in the proof of $\sqrt{2} \in \mathbf{R}$ over different number systems, and label the steps of the last corollary differently. The [Lecture 2 page](02-introduction-to-real-numbers-cont.md#board-versus-notes) lists them. In Lecture 3 the formal proofs are the same on the board and in the notes in structure, but they name the auxiliary numbers differently and justify some bounds by different routes; the [Lecture 3 page](03-how-to-write-a-proof-archimedean-property.md#board-versus-notes) lists them.
 
 ## Expect it to take time
 
@@ -43,3 +59,4 @@ Colding says students need patience: learning to write proofs takes a little tim
 
 - [Lecture 1 — Introduction to Real Numbers](01-introduction-to-real-numbers.md): the case for rigor and three model proofs.
 - [Lecture 2 — Introduction to Real Numbers (cont.)](02-introduction-to-real-numbers-cont.md): proofs by contradiction, an equality proved as two inequalities, and Colding's remarks on method.
+- [Lecture 3 — How to Write a Proof; Archimedean Property](03-how-to-write-a-proof-archimedean-property.md): scrap paper versus the formal proof, and two of Lecture 2's proofs written out formally.

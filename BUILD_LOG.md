@@ -19,6 +19,7 @@ every build follows, and each lesson in general form, are in
 | --- | --- |
 | 01 Introduction to Real Numbers | Run 1 |
 | 02 Introduction to Real Numbers (cont.) | Run 2 |
+| 03 How to Write a Proof; Archimedean Property | Run 3 |
 
 ## Runs
 

@@ -156,7 +156,7 @@ The notes give the same argument in three sentences (notes p. 4). The board vers
 
 ## Where the lecture stops
 
-In the statement that $\mathbf{R}$ is a complete ordered field containing $\mathbf{Q}$, the one word still unexplained is **complete**. Colding says he will define it in a later lecture (≈13:39–14:27, ≈51:29). The course's Lecture 2 is titled "Introduction to Real Numbers (cont.)" and its reading is TBB Sections 1.5–1.6, but this knowledge base does not yet cover it. He closes by asking for patience. In his experience, writing proofs takes students some time to get the hang of; a few weeks or months in, "things will really turn around", and it becomes more fun (≈1:05:20).
+In the statement that $\mathbf{R}$ is a complete ordered field containing $\mathbf{Q}$, the one word still unexplained is **complete**. Colding says he will define it in a later lecture (≈13:39–14:27, ≈51:29). [Lecture 2](02-introduction-to-real-numbers-cont.md) defines it (TBB Sections 1.5–1.6); see [completeness and the least upper bound property](least-upper-bound-property.md). He closes by asking for patience. In his experience, writing proofs takes students some time to get the hang of; a few weeks or months in, "things will really turn around", and it becomes more fun (≈1:05:20).
 
 ## Related pages
 
