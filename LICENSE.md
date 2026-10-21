@@ -18,9 +18,9 @@ The wiki prose in `wiki/` is original writing that summarizes and cites the mate
 ## Not in this repository
 
 - **PDFs.** No course PDF is committed. [`sources.md`](sources.md) links each one at its canonical OCW URL.
-- **Images.** None. The Lecture 1 notes contain no figures.
+- **Images.** None. The notes for Lectures 1 and 2 contain no figures.
 - **The textbook.** Thomson, Bruckner and Bruckner, *Elementary Real Analysis*, is linked, not copied. Its own site offers it as a free download.
 
 ## Third-party content
 
-The Lecture 1 notes carry no third-party material and no OCW exclusion notice. Later lectures will be checked for both as they are added.
+The notes for Lectures 1 and 2 carry no third-party material and no OCW exclusion notice. Later lectures will be checked for both as they are added.

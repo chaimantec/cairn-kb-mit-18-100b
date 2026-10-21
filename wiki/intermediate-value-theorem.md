@@ -12,9 +12,9 @@ Let $a \lt b$ be real numbers and let $f : [a, b] \to \mathbf{R}$ be continuous,
 
 ## Why that is not a proof
 
-The course's point is that the picture is intuition, not proof, and the question "how do we make this into a proper proof?" is not merely semantic. Without a fully rigorous foundation one soon meets statements that seem true but are not, and can no longer tell what should be true (≈8:40–9:29). A proof has to use some property of the real numbers, so the first question is **which one** (≈10:18). The answer given is that $\mathbf{R}$ is a complete ordered field containing $\mathbf{Q}$ (≈12:45–13:39). The rest of Lecture 1 explains what "ordered field" means; "complete" is deferred to a later lecture. See [the real numbers](real-numbers.md).
+The course's point is that the picture is intuition, not proof, and the question "how do we make this into a proper proof?" is not merely semantic. Without a fully rigorous foundation one soon meets statements that seem true but are not, and can no longer tell what should be true (≈8:40–9:29). A proof has to use some property of the real numbers, so the first question is **which one** (≈10:18). The answer given is that $\mathbf{R}$ is a complete ordered field containing $\mathbf{Q}$ (≈12:45–13:39). The rest of Lecture 1 explains what "ordered field" means, and Lecture 2 explains "complete": every subset of $\mathbf{R}$ with an upper bound has a least upper bound. See [the real numbers](real-numbers.md) and [completeness and the least upper bound property](least-upper-bound-property.md).
 
-Neither the lecture nor the notes define continuity formally yet, and the theorem is not proved in Lecture 1.
+Lecture 2 opens by recalling this example and the question it raised (Lecture 2, ≈0:00–2:27). Neither lecture defines continuity formally, and neither proves the theorem.
 
 ## Where it is proved
 
@@ -23,3 +23,4 @@ On the OCW lecture list, Lecture 11 is "Extreme and Intermediate Value Theorem; 
 ## Lectures
 
 - [Lecture 1 — Introduction to Real Numbers](01-introduction-to-real-numbers.md): the statement and its role as motivation.
+- [Lecture 2 — Introduction to Real Numbers (cont.)](02-introduction-to-real-numbers-cont.md): recalls it as the motivating example, then defines completeness.

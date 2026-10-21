@@ -45,7 +45,8 @@ printed slips, which slides were rendered and why) goes in
   Cairn's chat and on github.com. Never inside a code fence — that shows the
   source instead of the formula. Define each symbol on first use, and follow the
   course's own notation rather than a tidier one, since the learner is comparing
-  the page against the lecturer's board.
+  the page against the lecturer's board. Never open a quotation with a formula
+  (`"$…`): github.com then shows it as raw text. Rephrase so the quote starts with a word.
 - **Transcripts stay verbatim.** Captions spell notation out as speech ("theta
   sub j"); reconstructing it as $\theta_j$ belongs in `wiki/`, not in
   `raw/transcripts/`.
@@ -76,11 +77,13 @@ printed slips, which slides were rendered and why) goes in
 - **Board versus notes.** Where they differ (the form of a law, a step the notes leave
   implicit), the wiki follows the notes and gives the board's version with its timestamp.
 - **Transcripts.** OCW captions are professional: punctuated, speaker-labelled
-  ("TOBIAS COLDING:"), with sound tags. The edit is light (tags, filler, false starts;
-  caption mishearings such as "O1" for 0₁ or "c" for z). The captions carry no
-  audience labels: never infer a student question without evidence in the text. Where
+  ("TOBIAS COLDING:" or "PROFESSOR:"), with sound tags. The edit is light (tags, filler, false starts;
+  caption mishearings such as "O1" for 0₁ or "c" for z). Some lectures' captions
+  label students ("STUDENT:") and some carry no audience labels: keep the labels the
+  captions give, and never infer a student question without evidence in the text. Where
   Colding misspeaks (e.g. "denominator" for "numerator"), keep his words and add an
-  *[Ed: …]* mark rather than correcting silently.
+  *[Ed: …]* mark rather than correcting silently. Ed marks are spelled out like the
+  speech around them, never notation.
 - **Not yet covered.** Topic pages state what later lectures will add only by their OCW
   titles and readings, never by supplying the content; say "not yet in this KB".
 

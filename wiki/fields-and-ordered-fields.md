@@ -1,6 +1,6 @@
 # Fields and ordered fields
 
-**The axioms 18.100B uses to say what the real numbers are, as stated in Lecture 1, with the consequences proved so far and the course's examples and non-examples.**
+**The axioms 18.100B uses to say what the real numbers are, as stated in Lecture 1, with the consequences proved so far, the course's examples and non-examples, and where completeness (Lecture 2) fits in.**
 
 ## Field
 
@@ -37,7 +37,7 @@ An **ordered set** $\mathbf{S}$ is a set with a relation $\lt$ such that (notes 
 1. for any $x, y \in \mathbf{S}$, one of $x \lt y$, $y \lt x$, $x = y$ holds;
 2. if $x \lt y$ and $y \lt z$, then $x \lt z$.
 
-The first property means any two elements can be compared: if they are different, one is smaller (≈53:26). The second, transitivity, is in the notes but is not stated aloud in the lecture.
+The first property means any two elements can be compared: if they are different, one is smaller (≈53:26). The second, transitivity, is in the Lecture 1 notes but is not stated aloud in that lecture; Lecture 2's recap states it (Lecture 2, ≈4:57–5:42).
 
 ## Ordered field
 
@@ -52,10 +52,13 @@ The first says you may add the same element to both sides of an inequality. The 
 
 **Example:** $\mathbf{Q}$, with the order defined by cross-multiplying, is an ordered field (≈56:33–58:14).
 
-## Where this is going
+**The element $1$ is unique too, and $-1$ is defined from it.** Asked at the end of Lecture 2 how $-1$ is defined, Colding answered that $1$ is the neutral element for multiplication, that the argument that proved the zero unique also proves $1$ unique, so "1" is a well-defined notion, and that $-1$ is the inverse of $1$ with respect to addition (Lecture 2, ≈1:09:46–1:10:32).
 
-The course's description of $\mathbf{R}$ is "a complete ordered field that contains $\mathbf{Q}$" (≈12:45). Ordered fields are covered here; completeness is left to a later lecture, which this knowledge base does not yet cover. See [the real numbers](real-numbers.md).
+## Complete ordered field
+
+The course's description of $\mathbf{R}$ is "a complete ordered field that contains $\mathbf{Q}$" (Lecture 1, ≈12:45). Lecture 2 defines the last word. An ordered set is **complete** if every subset that has an upper bound has a least upper bound (Lecture 2 notes p. 2). On the board, a complete ordered field is an ordered field in which any bounded subset has a least upper bound (Lecture 2, ≈27:25–28:35). $\mathbf{Q}$ is an ordered field but not a complete one. The course takes for granted that a complete ordered field containing $\mathbf{Q}$ exists, and calls it $\mathbf{R}$. See [completeness and the least upper bound property](least-upper-bound-property.md) and [the real numbers](real-numbers.md).
 
 ## Lectures
 
-- [Lecture 1 — Introduction to Real Numbers](01-introduction-to-real-numbers.md): all of the definitions and both theorems above.
+- [Lecture 1 — Introduction to Real Numbers](01-introduction-to-real-numbers.md): all of the field and ordered-field definitions and both theorems above.
+- [Lecture 2 — Introduction to Real Numbers (cont.)](02-introduction-to-real-numbers-cont.md): a recap of the axioms, the uniqueness of $1$ (in answer to a question), and complete ordered fields.

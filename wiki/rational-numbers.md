@@ -36,8 +36,14 @@ With these operations and this order, $\mathbf{Q}$ satisfies all eleven field ax
 
 ## What $\mathbf{Q}$ is not
 
-Lecture 1's questions "Why is $\sqrt{2}$ a real number? What is $\sqrt{2}$?" (notes p. 1), and its answer that $\mathbf{R}$ is a *complete* ordered field *containing* $\mathbf{Q}$, point to something $\mathbf{Q}$ lacks. The lecture leaves completeness to a later lecture, and this knowledge base does not yet cover it. See [the real numbers](real-numbers.md).
+Lecture 1 asked "Why is $\sqrt{2}$ a real number? What is $\sqrt{2}$?" (notes p. 1), and Lecture 2 answers with the main difference between $\mathbf{Q}$ and $\mathbf{R}$:
+
+- **No rational number squares to $2$** (Lecture 2, ≈10:04–15:44; notes p. 1). Suppose $\frac{m}{n}$ did, with $m$ and $n$ having no common factor. Then $m^2 = 2 n^2$, which forces both $m$ and $n$ to be even, a contradiction. See [the square root of 2](square-root-of-2.md).
+- **$\mathbf{Q}$ is not complete** (Lecture 2, ≈52:20–54:54; notes p. 3). A complete ordered field containing $\mathbf{Q}$ must contain $\sqrt{2}$, and $\mathbf{Q}$ does not. Concretely, the set of rationals whose square is at most $2$ has an upper bound in $\mathbf{Q}$, but no least upper bound in $\mathbf{Q}$ (≈1:12:05–1:12:51). See [completeness and the least upper bound property](least-upper-bound-property.md).
+
+But $\mathbf{Q}$ sits closely inside $\mathbf{R}$: **between any two real numbers $x \lt y$ there is a rational number** $\frac{m}{n}$ with $x \lt \frac{m}{n} \lt y$. Lecture 2 proves this from the Archimedean property, by choosing $n$ with $\frac{1}{n} \lt y - x$ and stepping in multiples of $\frac{1}{n}$ (≈1:00:49–1:08:14; notes pp. 3–4). See [the Archimedean property](archimedean-property.md).
 
 ## Lectures
 
 - [Lecture 1 — Introduction to Real Numbers](01-introduction-to-real-numbers.md): the definitions above, and the well-definedness proof for multiplication.
+- [Lecture 2 — Introduction to Real Numbers (cont.)](02-introduction-to-real-numbers-cont.md): $\sqrt{2}$ is not rational, $\mathbf{Q}$ is not complete, and a rational number lies between any two reals.
