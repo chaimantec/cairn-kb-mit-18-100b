@@ -1,0 +1,198 @@
+---
+title: Lecture 6: Cauchy Convergence Theorem
+lecture: 6
+video: https://www.youtube.com/watch?v=WCCpss6udNs
+source: verbatim YouTube transcript
+---
+
+# Lecture 6: Cauchy Convergence Theorem — transcript
+
+Verbatim captions as published with the MIT OpenCourseWare video (professionally transcribed and punctuated, with speaker labels), grouped into paragraphs. Timestamps mark the start of each paragraph.
+
+**[0:00]** [SQUEAKING] [RUSTLING] [CLICKING] TOBIAS COLDING: Last time we talked apart the basic algebraic operation for limit of sequences. We talked about the monotone convergence theorem. So the monotone convergence theorem was that you had a sequence that was increasing or it could be decreasing. So either it was increasing-- this meant that the next element was bigger or equal to the previous. And then they were all assumed to be bounded. If you had such a sequence, or similarly if you had a sequence-- so this was the increasing case.
+
+**[0:49]** Then there was a similar decreasing case where the previous is bigger or equal to the next one. And then they are assumed to be bounded from below. So this was decreasing. So monotone convergence theorem was that if you had a bounded increasing sequence or a bounded decreasing sequence, in either case, the sequence is convergent and it's converging, in the first case, in this case here, a, it's converged to the sup of the xn, so this is in case a.
+
+**[1:37]** And in this case b, it converges to the nth in case b. So that was the monotone convergence theorem. And the third thing we talked about, and that's where we will continue today, is Cauchy sequence. So we talked about Cauchy sequence. So let me-- and we proved a few things about Cauchy sequence from what I examined that for today. So let me remind you what a Cauchy sequence is. So a sequence xn is said to be a Cauchy sequence
+
+**[2:38]** if, for all epsilon greater than 0, there exists n such that. if little n is big or equal to the capital N, then-- sorry, if little n and little m. So if n and m-- m and n are bigger or equal, then they are epsilon close together xn and xm distance between them
+
+**[3:24]** is a distribution. So this was a Cauchy sequence. And it just meant-- the Cauchy sequence just meant that the tail of the sequence bunched together. Now let me just prove-- I think we maybe talk about this, but let me-- but I'm going to-- let me just do a little theorem here. If xn is a Cauchy sequence, then xn is bounded.
+
+**[4:16]** And so the proof of this is [? the ?] proof. So now in the definition of it being a Cauchy sequence, you can take epsilon to be equal to 1. So if you take epsilon to be equal to 1 in the definition of being a Cauchy sequence, so this means that they exist. They exist. They exist some n such that if little n and little m
+
+**[5:10]** are bigger than this n, then the difference between these two is less than 1. This is the definition where we just apply it to epsilon equal to 1. So you have this. But of course, in particular, we can set say m equal to this. Right. And then you have that xn-- all the other ones. This means that for all the [INAUDIBLE] for all little n bigger than capital N, if you're looking at this difference here,
+
+**[6:00]** then this is less than 1. I'm only applying this now and just choosing just one single m. And I'm choosing it to be equal to that capital. Do you have that? And so this means that now you see that if you take-- so if you take x-- so now suppose that little n-- so for little n bigger than capital N, if you look at little n, then you have-- [INAUDIBLE] for little n bigger or equal to capital N,
+
+**[6:51]** then you have that norm of little n where you can write little n as the difference. You can write little n. You can subtract it first and then add it again. So this has stayed the same. And now you can just-- so you have the sum of two things. You can think about this thing here is one number and this is another number. So this is now less than xn minus x capital N plus the norm of x capital N. And this here was because little n was bigger than capital N. This is bounded by 1.
+
+**[7:37]** So this is less than 1 plus the norm. This. Right. So you see that for all the little n's that are bigger than capital, all of those, there is a uniform branch. And so this means that if you're now just taking the maximum of the norm of x1, the norm of x2 up to the norm of xn minus-- sorry, xn minus 1, and then x capital n plus 1, if you take the maximum of this and call this m, then, clearly,
+
+**[8:26]** for all n-- for all n, clearly, you have for all n, you have that xn is less than or equal to n because if little n is bigger than capital N, then it's bounded by capital M because it's a maximum in particular of this and all the other ones. That's obvious. So it means that if you have a Cauchy sequence, it's automatically bounded. Now we have the Cauchy convergence theorem. So next, we will discuss is the Cauchy convergence.
+
+**[9:27]** So this is the following that any Cauchy sequence is convergent. So remember that last time we proved the following theorem. So recall that last time we showed the converse.
+
+**[10:14]** So namely, we proved the following theorem. We proved that if-- that any convergent sequence is a Cauchy sequence. And so the Cauchy convergence theorem is just a converse [? convergence. ?] Now, so we've come back to the proof in just a little bit. But before that, let me talk about some applications.
+
+**[11:07]** And so the first one we started talking a little bit last time. And this is the contracting mapping theorem. So contracting. And that, in itself, have a number of applications. So contracting mapping theorem. And for that, I need some-- I need to recall some definitions. So a map-- at map T from R into R is said to be a contracting map if there exists
+
+**[12:11]** some constant c positive. c is positive. And the key point is it will have to be positive. But the key point is that this constant has to be strictly less than 1. And then contracting mapping just means that if you are looking at the difference between the images, then they are closer together. They're strictly closer together than the point that they are images of. OK. So this is a contracting map. So the contracting mapping again, this here inequality is--
+
+**[12:58]** it's saying that, under the map, the images are squeezed more together. So now that's one concept. The other one we need is that for fixed point. The other concept is fixed point. So x here is a fixed point. For a map T, if it is under the map, the point remain unchanged.
+
+**[13:52]** So T of x is equal to x. So this is what it needs to be. Yeah. STUDENT: But for that, it's not the same c for all x and y. TOBIAS COLDING: It is the same C. It is. Yeah. It's the same thing. Yeah. And we'll come back to this in just a second. But it is supposed to be the same c. You can weaken that a little bit. But essentially, I mean you sort of, you know, [INAUDIBLE]. We'll talk about this in just a second. But it's important. Just think about it, that it's a requirement that it's the same c for all. And the key point is that this c is strictly less than 1. OK. So this is a fixed point.
+
+**[14:41]** So now the first [? theorem ?] is that-- so we have a Lemma here. If T here is a contracting map, then there's at most one fixed point.
+
+**[15:32]** And there cannot be more than one fixed point. So let's prove that. So proof. So yeah. So I'm going to-- so suppose x and y are fixed points. And I want to show that x is equal to y. So I'm looking at the images. So let's continue on.
+
+**[16:30]** So I'm looking at the images under f. So I'm looking at-- so I take T of x. And I'm looking at the difference between T of x and T of y. And I want to estimate that difference. Well, on one hand, x is supposed to be a fixed point. So T of x is the same as x. And likewise, for y. So this here is the same. So T of x is the same as x. T of y is supposed to be the same as y. So I have this. On the other hand, it's a contracting map. So this here is less than or equal to c times the norm of x minus y.
+
+**[17:16]** But now c here-- remember c is strictly less than 1. So you can only have an inequality like this, right, if this number here is 0, right, when c is strictly less than 1. So this here implies that x minus y, the distance is zero. So of course, this means that x is equal to y. OK. So that's what we want to prove. Yeah? STUDENT: [INAUDIBLE] TOBIAS COLDING: Yeah. I'm sorry. That was-- yeah. It should have been this sequence because otherwise it wouldn't be-- if x is equal to y equal to z.
+
+**[18:02]** So it should be the same. So our constructing maps have at most one fixed point. Okay. Now, let's-- so let me just-- so you're going to prove this. So I have harassed the graders to give you back the homework. It should be back today. I mean otherwise they're in trouble. So hopefully. And the assignment for next week is already posted. And here is-- here's--
+
+**[18:49]** so this is on the next-- so I will-- so here's something on P set 4. And I think it's-- OK. Yeah. I forget which one it is. But anyway, on the third P set, you will be asked to prove the following, that if T here is a contracting map, and x here is any point, any point
+
+**[19:34]** in the domain of this map, then if you form the sequence a n-- sorry, a1, that's just x, a2-- let's call it a-- sorry. Let's call it a0 is x, a1 here is T of x, T of x is 0. So this is T of x. And a2 is T of a1. So this is the same as T of this. So this is T times T of x, which I will write like this.
+
+**[20:27]** And a3-- so we continue this way. a3 is T of a2 so that is T applied three times, so T T T of x. And I'm going to write this as T cubed of x and so on. So a n is going to be T of a. Sorry, it's T of a n plus 1 is going to be T of a n. So that's the same as t to the power n plus 1 of x.
+
+**[21:17]** So if you have a contracting map and you start with any point you want, and now you form a sequence that is based on that point and the n-th element is just where you have applied the map n times to the original point. So if you form that sequence, then you will prove-- you will show that-- in the homework, you will show that this sequence, so P63-- and I will just do a special case of it that you will start with. But we'll just do this now and then the rest you'll do--
+
+**[22:07]** I'll leave for the homework. But on P set 3, you prove that this a n is a Cauchy sequence. And what is the key starting point? So key starting point for this. So now, because you hear, you're already well started on P set 3, There's a key starting point for this is to prove that it's a Cauchy sequence. So I want to estimate. So this is not enough. I mean I need to prove-- what I need to show is--
+
+**[22:52]** remember I need to prove that when little m and little n are sufficiently large, then I want to estimate the distance between these two and show that they are bunched together. That's what we need to prove this Cauchy sequence. I won't quite do this, but I'll do a special case that is a key starting point. And that is the way I'm looking at this thing here. I'm looking at two consecutive elements in the sequence. And I'm estimating the distance between them. That's not enough to prove that's a Cauchy sequence, right, because I need to prove that for all n and m sufficiently large. And I'm just proving here that for any n sufficiently large, if I'm looking at the neighbor, then
+
+**[23:39]** this distance is very small. You can use the estimates that, we will now prove to prove that it is, in fact, a Cauchy sequence. So in order to estimate this right, I can think about this thing here as a to the n plus 1. This here is just T of a to the n and a n itself. This is T of the previous element, right? This is how we define them. So this means that this thing here-- so again, I can just write this in here. So this thing is equal to a n minus T of a n minus 1.
+
+**[24:31]** And now I can use that contracting map because now I have these two T's here. So I can use this contracting map. So I get less than or equal to and then a n minus a n minus 1. And so you see that that's the next-- the distance between the next pair is because c is strictly less than 1. It has decreased with some factor. Right? And so now the key starting point is that if you just iterate this-- so now if I iterate this, so I'm looking at a n plus 1 minus a n.
+
+**[25:22]** And I now have that this thing here is less than c a n minus a n minus 1. But now I'm writing-- forget about the c for a second. I'm just writing this thing here, so I do the same thing again. I write this here as the image of a n minus 1. And I write this n minus 1 as the image of the previous one, so n minus 2. Right? And now so I write this. So c here I just have to carry along for the ride. And then I have T a n minus 1 minus T a n minus 2. And now forget about this.
+
+**[26:08]** Just use this contracting mapping. So then this is less than or equal to. And then this c here I have to carry along. But then there's another c that pops out. Right. So this times c, that pops out because of the contracting mapping. And then a n minus 1 minus a n minus 2. And so you see that you have written this as c squared a n minus 2 minus 1 minus a n minus 2. And so now you continue it. And so you see that the further out you get-- so you continue this all the way down to that you're getting that this element is the initial point and this one is the first, your a1.
+
+**[26:55]** This is a0 and this is a1. Right. And so you see that you're getting something which is like ac to some power n times the distance that you started with. So this is bounded by something like c to the n times a to 1 minus a0, something like that. And so that's a key starting point. So if you are going very, very far out, remember that this number is smaller than 1 so this here will become incredibly small when n is large. Right. And so this is the key starting point
+
+**[27:41]** to prove that if you take a contracting map, you start with any point, and you form this sequence here, then it's a Cauchy sequence. And I leave the rest for the homework. So now let's prove the contracting mapping theorem using the Cauchy convergence theorem. So using the Cauchy convergence theorem now
+
+**[28:27]** through the contracting mapping theorem. So what is a contracting mapping theorem? The contracting mapping theorem is that if T here is a contracting map, so T from T from R to R, maps R into R is a contracting map, then T has a fixed point.
+
+**[29:23]** We already know that such a fixed point is unique. We already proved that it can and must be one fixed point. OK. So let's try to prove that. So we're going to use this result from P set 3 to prove it. So I start with any point, x. You pick any point you want. And then we form the sequence, where you apply this here,
+
+**[30:12]** the n time to x. So then we have-- So this from P set 2 that a n is a Cauchy sequence. But then from Cauchy convergence theorem,
+
+**[31:05]** we have that a n is converging, that this here is a Cauchy sequence. But the convergence theorems say that any Cauchy sequence is actually convergent. So this here converge to some a. And now the idea is that we want to show-- so we want to show that a is a fixed point. So that's the idea.
+
+**[31:53]** The contracting mapping theorem is actually extremely powerful. It, again, can be used to solve what's called ODE, Ordinary Differential Equations. And we'll talk a little bit about that at some later point in the class. But it can also be used to solve PDEs, which is more complicated, Partial Differential Equations, and in all kinds of other areas of math. OK. So now we want to prove that this a here is a fixed point.
+
+**[32:41]** All right. And we'll come back in just a minute to prove something related to this. But let me just-- very simple. So I'm talking about a n here. I know that it's converging to a. I then look at the sequence T of a n. Well, T of a n, that was a n plus 1. It was just 1 further out of the sequence. But since a n converge, this means, of course-- since a n converge to a, this means that these here will also converge to a--
+
+**[33:27]** so since this here, a n plus 1, as n becomes very large, will converge to a. OK. Now If you're looking at T of a n-- so you want to estimate now. So what I want to prove is-- so now I'm looking at this distance. So I want to show that T of a is equal to a. That's what we want to prove. And so if I'm looking at T of a n, T of a n,
+
+**[34:18]** this here was a n plus 1. And so if I'm looking at T of a n minus T of a, because it is a contracting map, this thing here is bounded or equal to c a n minus a. And this is also equal to a n plus 1 minus T of a. That was just the definition of a n plus 1. So now I have that a n converges to a. So this means that this here converges to 0.
+
+**[35:07]** So now since a n converts to a, then you have that a n minus a-- you can think about this as a sequence that converges to 0. But this inequality here says that since this goes to 0, this thing here must also go to 0. So you see that therefore, a n plus 1 minus T of a goes to 0. But that this here goes to 0, this just means that a n plus 1, this must converge to T of a.
+
+**[35:56]** But this sequence already converts to a. There can only be one limit. So we already have that a n plus 1 converge to a. But then these two numbers must be the same. So the conclusion here is that a must be equal to T of a. So from the Cauchy convergence theorem, then you get the contracting mapping theorem. And we already proved that you get a fixed point. And we already knew that there was at most one fixed point.
+
+**[36:43]** And so this is a very powerful idea. Because for many things, it's almost impossible to find the actual fixed point. But what you do is that you're starting with some-- so in this case, you just said you pick any x. And then you just apply the map enough times. Sometimes you would start with a-- you can't find a fixed point, but you can find something pretty close to the fixed point. And then you iterate from there. And we'll see just in a second. So I already talked about the [INAUDIBLE] existence of solutions to ODEs and to PDEs.
+
+**[37:31]** And now let me illustrate this last point in another example. And this comes back to your question about, is this the same? But do think about it as being the same for all x and y. But you could have some kind of local statement where, it was true for x and y in some small range. And that would be enough to guarantee you a fixed point. But in general, it's the same. The definition is supposed to be the same for all [? next ?] one. So let me explain that in what's called Newton method.
+
+**[38:16]** So this is the Newton method. And so the idea is that you have a function. You have some function here. Maybe it doesn't look like a function, but it's supposed to. This is f of x. And you want to find the point where this function vanishes. And so the method is a numerical method to find such a point.
+
+**[39:03]** If this function was very simple, like a linear function or a quadratic function, then, of course, it would be easy to find. But maybe this is a very complicated function. And so you wouldn't necessarily be able to say exactly what the point is. And so the idea is that Newton's methods require that you start with a good guess. But this is the idea of the Newton method. So here's the idea, that we're looking at a function like this. I'm going to assume that is not zero.
+
+**[39:52]** So it's actually monotone. It's either increasing or decreasing. So I'm assuming that there's nowhere where the differential vanishes. And then I defined a map, T of x, to be equal to x minus f of x, f prime of x. This seems maybe far away from contracting now. But if you define it like this, now let me take the derivative of this. If I take the derivative of this map,
+
+**[40:38]** then I get that this thing here, the derivative of x, that's just 1. The derivative of this in here, this is a quotient. So it's f prime times its derivative of this times f prime and then f prime squared minus and then f f double prime, like that. That's the quotient for taking the derivative. And so you see that you can write this-- if you split this up into two-- this here is one. You split it up to two. This here is f prime squared divided by f prime squared.
+
+**[41:26]** And then this here becomes plus. And then I'm writing it as f f double prime over [INAUDIBLE] squared. And so you see that this thing here cancel with that. So these here cancel. So you have that the derivative of this map is just f of x, f prime, double prime of x, f prime of x, and then squared. That's the derivative. And now, of course, if I'm using the mean value theorem here,
+
+**[42:17]** then I have that the derivative-- then I have that T of x minus T of y-- the mean value theorem say that this thing here is the derivative. It's actually Wallis theorem or whatever. But you can also think about this mean value theorem. It's a derivative at somewhere in between x and y times the difference between x and y. That's the mean value theorem. So you see that if we already knew-- so if we can show--
+
+**[43:07]** if we knew that the derivative was bounded everywhere, was bounded by some c, little c that was less than 1-- if you had that, then, of course, then you just take the absolute value of this. So then you have that T of x minus T of y, the absolute value was equal to T prime in this intermediate point, x minus y. But in this intermediate point, we're assuming that everywhere in the derivative is less than or equal to c. So now this is less than or equal to c, so c x minus y. And we're assuming that c is strictly less than 1.
+
+**[43:55]** So you see that this here, if we knew that the derivative of T was strictly less than 1 everywhere, then we would know that this map is a contracting map. OK. But, of course, what we have for the derivative is, we have this in here. But now the idea is that if you start with a really good guess-- so the idea with [INAUDIBLE] is, start with a good guess.
+
+**[44:49]** And then I'm not going to make that too precise, as I'm putting it in quotation marks. But the idea is that you want to-- so good guesses. Remember that what we want is, we're interested in this point here, where this function here-- we're interested in the point where the function vanishes. So starting with a good guess means that you may not start where the function vanishes, but you're starting somewhere where the value is really small. That would be a good guess. And so start with a guess, meaning that f at that point
+
+**[45:38]** is small, is very small. Now, of course, you're going to ask, what do you mean by very small? So very small here is going to mean that the value-- so now we have, from this here-- so we have that the derivative here of this map here was equal to-- these two terms cancel out. So this is f of x, f double prime of x, f prime of x squared. So starting with a good guess means that this thing here
+
+**[46:24]** is really, really small. And, in fact, I want it to be small compared with this. So if this here is really small compared with that, then I can guarantee that the absolute value of this is smaller than 1. And so you see that if you start with a really good guess, then it would be a contracting mapping. And then, of course, you need to prove that. So you're forming the sequence. And you need to prove-- somehow, you need to estimate, that you need to be able to say that once you form the sequence, the next thing that it's spitting out is also a good guess, so that you stay in this range of good guess. And if it has this property, then it
+
+**[47:12]** would be a contracting map, and you would guarantee to get a fixed point. But that's all the Newton methods say. So you need to justify why, if you start with a good guess, why, as you're iterating this process, why you keep in the range of good guesses. But the Newton method doesn't tell you anything about that. But it require that to be applied. OK. So it's a contracting map. This T is a contracting map. If I can start with a good guess-- and when I do this, when I form-- so I start with this good guess.
+
+**[47:59]** And then I'm looking at that the next thing is this T of x and then a T squared of x. By then, I want all of these to also be good guesses. And then I'm saying that as n goes to infinity, this here is constant, is going to converge to this fixed point. I guess I called it x0. But this is the fixed point, fixed point for T. So now we started with a function. And what we wanted to find a root, so at x0,
+
+**[48:44]** where this function vanishes. And I constructed a contracting map. But now I will need to relate the fixed point for the contracting map to the original problem. So what is a fixed point for the contracting map? So the map here, the map we defined was T of x is equal to x minus f of x over f prime of x. But a fixed point-- so if x0 is a fixed point, then this means that this here is the same as x0 minus f of x0, f
+
+**[49:32]** prime of x0. And now you can just write-- so therefore, this implies that f of x0 minus f of x0 over f prime of x0, this here. Then you would subtract x0 0 on both sides. And this is equal to 0. But that, of course, means the denominator must be 0. So a fixed point is indeed a point where f of x at 0 is equal to 0. OK. So now we want to prove the Cauchy convergence theorem.
+
+**[50:17]** But we're going to cheat just a little bit, because we are going to deduce it from another theorem that I will prove next time. So to prove the Cauchy convergence for the Bolzano-Weierstrass theorem-- and that theorem, we'll prove next time. So what is the Bolzano--
+
+**[51:05]** so the Bolzano-Weierstrass theorem. So the Bolzano-Weierstrass theorem says that every bounded sequence has a convergent subsequence. So that's a Bolzano-Weierstrass. Now let's try to-- we'll assume this. Again, I'll prove this next time. But let's use this theorem to prove the Cauchy convergence
+
+**[51:51]** theorem. So from the Bolzano-Weierstrass theorem, we get the Cauchy convergence theorem as follows. So, remember, the Cauchy convergence theorem
+
+**[52:38]** say that if you have a Cauchy sequence, then it is convergent. So suppose xn this [? position, ?] OK? I want to prove that it's convergent. But we already shown that any Cauchy sequence-- shown that xn, any Cauchy sequence is bounded.
+
+**[53:24]** This is this [INAUDIBLE]. Therefore, by the Bolzano-Weierstrass theorem, there's a convergent subsequence. So there's a convergent subsequent xnk.
+
+**[54:23]** So you have that this subsequence here converge to some x. And now I want to show that the original sequence converge to x. So since xn is a Cauchy sequence, given epsilon greater than 0, there exists a capital N
+
+**[55:14]** so that if m and n are bigger than capital N, then xn minus xm is less than epsilon over 2. I'm using the epsilon in the definition of being a Cauchy sequence. And let's call this-- this is the N. Let's called it N1. So now since xnk converge to x, but that epsilon,
+
+**[55:59]** there exist N2 so that if k here is bigger than N2, then xnk minus x is less than epsilon over 2.
+
+**[56:45]** So now we take n to be equal to the maximum of N1 and nN2. This is the one that corresponds to y. So this is where k is taking equal to this N2. So if we take n like that and you're looking at n bigger equal to N and you now want to estimate this thing here, then you can think about this difference here as x minus xn,
+
+**[57:43]** like this, plus x, xN minus xn [INAUDIBLE] like that. So this is now in this subsequent. And so one of them-- this is less than epsilon over 2. And this here is less than epsilon over 2. And so you get that this difference here was less than epsilon.
+
+**[58:28]** So this is why the Bolzano-Weierstrass theorem implies the Cauchy convergence theorem. OK. So now the next thing is that I want to give another application of the Cauchy convergence here. So here's another application of the Cauchy convergence theorem. So one application was to the contracting mapping theorem. But here's another application of the Cauchy convergence
+
+**[59:17]** theorem. So this is the extreme value theorem. Now, before I explain that, let me introduce this notion of a function being continuous in a rigorous way. So what does it mean for a function to be continuous? So a function f, say, from R to R could be a subset of R,
+
+**[1:00:13]** could be all of R, is said to be continuous at some point x0 if, for all epsilon greater than 0, there exist delta greater than 0 such that if x minus x0 is smaller than delta, then the images are within epsilon region.
+
+**[1:01:06]** So if you think about it-- so if you have the function-- this is a function. You should say that it's continuous at some x0, means that if this thing here is-- this here is now f of x0. If you take a little interval around here-- this is a epsilon interval-- around here, then there should be some delta interval around here so that if you're looking at images here, then it will map into here. That's what it means to be continuous. OK, so this is continuous at a point. And a function is said to be continuous
+
+**[1:01:53]** if it is continuous at all points. So a function is said to be continuous if it is continuous at all points.
+
+**[1:02:42]** And so now we have a little theorem here. And this is often useful way of thinking about continuity. So if f is continuous-- so let's just say it doesn't need to be all of R, but you just have to be careful that everything that you talk about is in the domain. But let's just say that f is a function from R to R, is continuous. So if f is continuous and xn is a sequence that converges
+
+**[1:03:29]** to x, then the images-- so f of xn-- this is another sequence-- those converge to f of x. This is a useful way of thinking about being continuous. And so now, why is this the case? So proof-- since f is continuous--
+
+**[1:04:18]** you only need that is continuous at each x. So since it's continuous at x, this means that for all epsilon that are given-- given epsilon greater than 0, there exist delta greater than 0 such that if x minus y-- this is this x here that you think about-- is fixed, if you have another point that is within delta, then the images f of x minus f of y [INAUDIBLE].
+
+**[1:05:08]** This is just that it's continuous at that one point, x. Now, since xn converges to x, this means that if you choose this delta here, in the definition of convergence, then there exist capital N such that if little n is bigger than capital N, then xn minus x is less than delta.
+
+**[1:05:54]** But now you see that if little n is bigger than capital N, then these lies this close to x. But then this say that it is-- so therefore, the images f of xn minus f of x is less than epsilon. And this was just as long as little n was bigger than capital N. And that's exactly proving that this sequence converge to that. So that's the claim. Now let's prove the extreme value theorem. So I need to state that first.
+
+**[1:06:48]** And there's two versions of it. So extreme value theorem-- so you take a function f on some interval. a and b are real number. They're both included. And f here is continuous. It's continuous at all points. It needs to be continuous at all points. And this interval needs to contain the endpoints also. So if this is continuous, then the sup
+
+**[1:07:37]** of f is achieved at some x, meaning that sup of f over this interval is equal to the value-- let's call it x capital M, capital M for Max-- is achieved at some point. In particular, the sup is finite. The sup is finite. And it's not really a sup. It's a max.
+
+**[1:08:22]** And so, likewise, it also says that, moreover-- just the same thing. And in the usual way, you could obtain it from this by looking at the function minus f if you wanted. Or you could just prove it directly with the same people that we're going to give here. Moreover, the inf of f over this interval is equal to the value at some point. So it's not just the inf. It actually is a minimum where x little m is-- and so now let's try to prove that.
+
+**[1:09:09]** And so this is going to use this theorem that we proved, this theorem. And then it's going to use the Cauchy convergence theorem. And I'm just going to prove, just because there's two parts to the extreme value theorem-- that's this with the sup, and that's this is with the inf.
+
+**[1:09:56]** But the proof, with obvious modification, they're the same. So I'm just going to focus on the sup. So I'm looking at the sup of this function. A priori, the sup could be infinity. So usually, we like sup to be finite. But let me allow this, that if there is no upper bound, then I will write infinity. So in any case, there exist xn so that--
+
+**[1:10:43]** there exists a sequence in this domain here so that the f of xn converge to the sup of it OK. I'm allowing here-- and we don't usually like this, but I allow this here to be infinite. If it's infinite, then I just mean that there's a sequence where the value of these become larger and larger without bound. So I have that. But now you see, this here is in this range. So this is a bounded. This is a bounded. So note that xn is a bounded sequence.
+
+**[1:11:40]** So then I'm using not Cauchy convergence theorem. I'm using the Bolzano-Weierstrass theorem, which implies the Cauchy convergence theorem. But I will use the Bolzano-Weierstrass theorem. So it's a bounded sequence. So I know that there exists a convergent subsequence. It's a good exercise to see that this sequence in itself-- you can just draw a little picture, and you convince yourself that this sequence in itself may not be convergent. But after you pass to a subsequence,
+
+**[1:12:26]** you can find a convergent subsequence. So it converge. So this here converge. And it converges to something in this interval. And that's important. So it converge to some x. And I call this x capital M. So it converging. And the key point here is that this thing here is lying in this interval. And the function is defined in particular at this point. So if this here has not included the endpoint, it converges to one of the endpoint,
+
+**[1:13:11]** but the function would not be defined there. So you wouldn't be able to conclude the extreme value theorem. But anyway, since we include the endpoint here, then now we have that from this theorem that is right here, we have that since this sequence converge to that, we have that the images converge to the image of x capital N. But on the other hand, this sequence here was a subsequence of a sequence that converges to the sup.
+
+**[1:13:57]** But if you take a sequence that converges to whatever number, then any subsequence will converge to the same number. So this here also converge to the sup of f minus. And so this means that these two numbers here must be the same. And so you should just know-- it would take you just a second to convince yourself that everything is fine. If a priori, I didn't know that the sup was a finite number, but infinite [INAUDIBLE] that is still fine. But that should only take a minute, to convince yourself about that.
+
+**[1:14:44]** So that proves the extreme value theorem, that if you take a function that is continuous and defined on an interval, where the interval includes both endpoints, then the sup is achieved. So the sup is really a max. And the inf-- by a very similar proof, the infimum is also achieved. And so both the min and max, see? Yeah? STUDENT: [INAUDIBLE] TOBIAS COLDING: Sorry, sorry. STUDENT: How [INAUDIBLE]? TOBIAS COLDING: OK. So yeah, that's right. So you're saying-- so this here-- so it was clear enough that it was a bounded sequence because it's lying in this bounded interval.
+
+**[1:15:32]** So it's a bounded sequence. Are you asking why such a bounded sequence exists? STUDENT: So how does [INAUDIBLE]? TOBIAS COLDING: OK. So you have this function. So you take the sup of f over this interval. And so this means that if you take any epsilon and you subtract it from the sup, then, actually, depending on this epsilon, there must exist so that the value at this x
+
+**[1:16:18]** is larger than this. And so you could imagine, instead of epsilon here, looking at a sequence like this. And then this here gives you a sequence like that. So that would be how you construct this. And the same when you do the-- and so once you have it, it's a bounded sequence because it's lie between a and b. You're using the Bolzano-Weierstrass theorem that we'll prove next time to get a convergent subsequence. And then you apply this theorem here to get, in that case, the maximum-- and likewise for the minimum-- that they are achieved. Any questions?

@@ -58,7 +58,7 @@ $$b_n = \sup \lbrace a_n, a_{n+1}, a_{n+2}, \cdots \rbrace , \qquad c_n = \inf \
 
 are two monotone sequences (≈23:24–24:10). $b_{n+1}$ is a sup over a smaller set than $b_n$, so $b_n \geq b_{n+1}$ and $b_n$ is decreasing (≈24:10–25:48). $c_{n+1}$ is an inf over fewer elements than $c_n$, so $c_{n+1} \geq c_n$ and $c_n$ is increasing (≈28:08–28:56). For each $n$ both are taken over the same set, so $c_n \leq b_n$ (≈29:46). Both sequences are bounded, so by the theorem $b_n$ decreases to a limit $b$ and $c_n$ increases to a limit $c$, and Colding adds that "we'll prove this later, but it seems probably pretty obvious that the limit here, c is less than or equal to b" (≈32:08–32:54).
 
-He says this construction "will play an important role when we prove the basic theorem about Cauchy sequences" (≈32:54) and that "this is how one defines limsup and liminf", which the course has not yet defined (≈1:07:23–1:08:10). For a monotone increasing sequence it is "almost like too simple": a student asked about that case, and Colding answered that every $b_n$ is then the limit, so $b_n$ is constant (≈25:48–27:19). The full passage, with his picture of the $c_n$ always lying to the left of the $b_n$, is on the [Lecture 5 page](05-monotone-convergence-theorem.md).
+He says this construction "will play an important role when we prove the basic theorem about Cauchy sequences" (≈32:54; in Lecture 6 that proof goes through the [Bolzano–Weierstrass theorem](bolzano-weierstrass-theorem.md) instead, and the construction does not appear) and that "this is how one defines limsup and liminf", which the course has not yet defined (≈1:07:23–1:08:10). For a monotone increasing sequence it is "almost like too simple": a student asked about that case, and Colding answered that every $b_n$ is then the limit, so $b_n$ is constant (≈25:48–27:19). The full passage, with his picture of the $c_n$ always lying to the left of the $b_n$, is on the [Lecture 5 page](05-monotone-convergence-theorem.md).
 
 ## Application: $\sqrt{2}$ as the limit of its decimals
 
@@ -77,7 +77,7 @@ Two facts that the application relies on are asserted in Lecture 5 rather than p
 
 ## Not yet in this knowledge base
 
-On the OCW lecture list, Lecture 6 is "Cauchy Convergence Theorem" (TBB Section 2.12), Lecture 7 is "Bolzano–Weierstrass Theorem; Cauchy Sequences; Series" (TBB Sections 2.11–2.12 and 3.4), and Lecture 9 is "Limsup and Liminf; Power Series; Continuous Functions; Exponential Function". None of them is covered here yet. The OCW readings for Lecture 5 are TBB Sections 2.8, 2.9 and 2.11.
+Lecture 6 opens by recalling the theorem (Lecture 6, ≈0:00–1:37) and is covered on [its own page](06-cauchy-convergence-theorem.md). On the OCW lecture list, Lecture 7 is "Bolzano–Weierstrass Theorem; Cauchy Sequences; Series" (TBB Sections 2.11–2.12 and 3.4), and Lecture 9 is "Limsup and Liminf; Power Series; Continuous Functions; Exponential Function". Neither is covered here yet. The OCW readings for Lecture 5 are TBB Sections 2.8, 2.9 and 2.11.
 
 ## Lectures
 

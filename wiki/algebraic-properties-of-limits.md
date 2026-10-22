@@ -67,7 +67,7 @@ $$\vert a_n b_n - a b \vert \leq C \frac{\epsilon}{2 (1 + C)} + \vert b \vert \f
 
 and since $\frac{C}{1 + C}$ and $\frac{\vert b \vert}{\vert b \vert + 1}$ are bounded by $1$, each term is bounded by $\frac{\epsilon}{2}$ and the whole by $\epsilon$ (≈51:04–51:53). □
 
-**Why the trick matters.** Colding's main takeaway from the third property is "this little idea about inserting something that was halfway between the two things you were comparing" (≈53:24). The same trick proves the Leibniz rule for the derivative of a product of two functions (≈54:10). On the OCW lecture list, derivatives come in Lecture 15, "Derivatives; Laws for Differentiation", which this knowledge base does not yet cover.
+**Why the trick matters.** Colding's main takeaway from the third property is "this little idea about inserting something that was halfway between the two things you were comparing" (≈53:24). The same trick proves the Leibniz rule for the derivative of a product of two functions (≈54:10). In Lecture 6 it proves the Cauchy convergence theorem: the distance from $a_n$ to the limit $a$ of a subsequence is split through a term $a_{n_k}$ of the subsequence (Lecture 6, ≈56:45–57:43; Lecture 6 notes p. 3; see [Cauchy sequences](cauchy-sequences.md)). On the OCW lecture list, derivatives come in Lecture 15, "Derivatives; Laws for Differentiation", which this knowledge base does not yet cover.
 
 ## Property 4: quotients and reciprocals
 

@@ -1,6 +1,6 @@
 # Sequences and limits
 
-**What a sequence of real numbers is, the definition of convergence with $\epsilon$ and $N$, divergence, the course's examples (including $0.999 \cdots = 1$), the theorem that a convergent sequence is bounded, the first condition that guarantees convergence (the monotone convergence theorem), and the definition of a Cauchy sequence. Covers Lectures 2 to 5; the proof of the Cauchy convergence theorem, which Lecture 5 states and promises for next time, is not yet in this knowledge base.**
+**What a sequence of real numbers is, the definition of convergence with $\epsilon$ and $N$, divergence, the course's examples (including $0.999 \cdots = 1$), the theorem that a convergent sequence is bounded, the first condition that guarantees convergence (the monotone convergence theorem), the definition of a Cauchy sequence, and the second condition, Lecture 6's Cauchy convergence theorem: every Cauchy sequence of real numbers converges. Covers Lectures 2 to 6.**
 
 Notation: $\mathbf{N} = \lbrace 1, 2, 3, \cdots \rbrace$ is the natural numbers and $\mathbf{R}$ the real numbers, set in bold as in the notes. A sequence is written $a_n$, and $\vert x \vert$ is the absolute value of $x$, which Colding often calls the "norm".
 
@@ -80,7 +80,9 @@ A sequence is **monotone increasing** if $a_n \leq a_{n+1}$ for all $n$ and **mo
 
 ## Cauchy sequences
 
-A sequence $a_n$ is a **Cauchy sequence** if for all $\epsilon \gt 0$ there is an $N$ such that $\vert a_n - a_m \vert \lt \epsilon$ for $m, n \geq N$ (Lecture 5 notes p. 6; Lecture 5, ≈1:08:56–1:09:45). Unlike convergence, the definition names no limit: far out, the terms "bunch together" (≈1:10:32). Lecture 5 states, without proof, that a sequence of real numbers converges if and only if it is Cauchy (≈1:11:21). See [Cauchy sequences](cauchy-sequences.md).
+A sequence $a_n$ is a **Cauchy sequence** if for all $\epsilon \gt 0$ there is an $N$ such that $\vert a_n - a_m \vert \lt \epsilon$ for $m, n \geq N$ (Lecture 5 notes p. 6; Lecture 5, ≈1:08:56–1:09:45). Unlike convergence, the definition names no limit: far out, the terms "bunch together" (≈1:10:32). Lecture 5 states, without proof, that a sequence of real numbers converges if and only if it is Cauchy (≈1:11:21).
+
+Lecture 6 proves that a Cauchy sequence is bounded and that it converges (Lecture 6, ≈3:24–8:26, ≈49:32–58:28; Lecture 6 notes p. 3). The proof uses the [Bolzano–Weierstrass theorem](bolzano-weierstrass-theorem.md), that every bounded sequence has a convergent subsequence, which Lecture 6 assumes and promises for the next lecture (≈50:17). Like the monotone convergence theorem, the Cauchy convergence theorem proves that a limit exists without naming it, but it asks nothing about the order of the terms. The converse, that a convergent sequence is Cauchy, is said in Lecture 6 to have been proved "last time" (≈9:27), but no proof of it is in the material here. See [Cauchy sequences](cauchy-sequences.md).
 
 ## A related fact
 
@@ -88,7 +90,7 @@ As a corollary of the [Archimedean property](archimedean-property.md), for any $
 
 ## Not yet in this knowledge base
 
-On the OCW lecture list, sequences continue in Lecture 6, "Cauchy Convergence Theorem" (TBB Section 2.12), where Lecture 5 promises the proof that a sequence converges if and only if it is Cauchy, and in Lecture 7, "Bolzano–Weierstrass Theorem; Cauchy Sequences; Series" (TBB Sections 2.11–2.12 and 3.4). Neither is covered here yet. Lecture 5 also says that the $\sup$ and $\inf$ of the tails are how limsup and liminf are defined (≈1:08:10); on the OCW list those come in Lecture 9, "Limsup and Liminf; Power Series; Continuous Functions; Exponential Function", which is not covered here either.
+On the OCW lecture list, sequences continue in Lecture 7, "Bolzano–Weierstrass Theorem; Cauchy Sequences; Series" (TBB Sections 2.11–2.12 and 3.4), where the proof of the Bolzano–Weierstrass theorem promised in Lecture 6 belongs. It is not covered here yet. Lecture 5 also says that the $\sup$ and $\inf$ of the tails are how limsup and liminf are defined (≈1:08:10); on the OCW list those come in Lecture 9, "Limsup and Liminf; Power Series; Continuous Functions; Exponential Function", which is not covered here either.
 
 ## Lectures
 
@@ -96,3 +98,4 @@ On the OCW lecture list, sequences continue in Lecture 6, "Cauchy Convergence Th
 - [Lecture 3 — How to Write a Proof; Archimedean Property](03-how-to-write-a-proof-archimedean-property.md): the definition of a sequence, and in the notes, the examples and the definition of convergence.
 - [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): convergence on the board, divergence, $0.999 \cdots = 1$, boundedness, the algebraic properties of limits, and subsequences.
 - [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): monotone sequences and the monotone convergence theorem, $\sqrt{2}$ as the limit of its decimals, and the definition of a Cauchy sequence.
+- [Lecture 6 — Cauchy Convergence Theorem](06-cauchy-convergence-theorem.md): a Cauchy sequence is bounded and converges, and a continuous function takes convergent sequences to convergent sequences.

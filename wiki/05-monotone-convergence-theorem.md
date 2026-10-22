@@ -229,7 +229,7 @@ On the board the condition is that $n$ and $m$ are bigger than $N$ (≈1:09:45).
 
 **How it differs from convergence** (≈1:09:45–1:10:32). "This is a different notion than convergence." Convergence says that everything far out "accumulates around the limit"; a Cauchy sequence is one where, if you are far out, "things bunch together, basically" (≈1:10:32). The definition mentions no limit at all, only the terms. The notes' gloss is "(Tail of the sequence bunch together.)" (notes p. 6).
 
-**Theorem** (notes p. 6; ≈1:10:32–1:12:08). A sequence of real numbers is convergent if and only if it is a Cauchy sequence. "For now, everything is in R at the moment" (≈1:11:21). Colding does not prove it in this lecture: "I won't prove this now, but I'll prove this next time", and the proof will use the two monotone sequences built from a bounded sequence (≈1:11:21–1:12:08). On the OCW lecture list Lecture 6 is "Cauchy Convergence Theorem" (TBB Section 2.12), which is not yet in this knowledge base. See [Cauchy sequences](cauchy-sequences.md).
+**Theorem** (notes p. 6; ≈1:10:32–1:12:08). A sequence of real numbers is convergent if and only if it is a Cauchy sequence. "For now, everything is in R at the moment" (≈1:11:21). Colding does not prove it in this lecture: "I won't prove this now, but I'll prove this next time", and the proof will use the two monotone sequences built from a bounded sequence (≈1:11:21–1:12:08). [Lecture 6](06-cauchy-convergence-theorem.md) proves that a Cauchy sequence converges, from the Bolzano–Weierstrass theorem rather than from this construction. See [Cauchy sequences](cauchy-sequences.md).
 
 ### From the notes only: Cauchy
 
@@ -249,7 +249,7 @@ $$\vert T(x) - T(y) \vert \leq c \thinspace \vert x - y \vert .$$
 
 The images of two points are closer together than the points were, by the factor $c$: "So they have to come closer" (≈1:15:25). The notes: "(Points are squeezed together under the map.)" (notes p. 6). On the board Colding also says that $c$ is positive; his remark about it is hard to read from the captions ("c is positive. I mean, that's not important. It had to be positive", ≈1:14:35). What he stresses is the other end: "the important point is that c has to be strictly less than 1. That's a crucial point" (≈1:14:35). The notes state only $c \lt 1$.
 
-**Contracting mapping theorem** (notes p. 6; ≈1:15:25–1:17:53). Any contracting map $T : \mathbf{R} \to \mathbf{R}$ has a fixed point: there is an $x$ with $T(x) = x$ (≈1:16:16–1:17:08). Again "it's crucial that this c is less than 1. That's what makes everything go. If it was equal to 1, you wouldn't get anything" (≈1:17:08). The proof is for next time: "once you know the more abstract concepts, then it's quite easy" (≈1:15:25–1:16:16).
+**Contracting mapping theorem** (notes p. 6; ≈1:15:25–1:17:53). Any contracting map $T : \mathbf{R} \to \mathbf{R}$ has a fixed point: there is an $x$ with $T(x) = x$ (≈1:16:16–1:17:08). Again "it's crucial that this c is less than 1. That's what makes everything go. If it was equal to 1, you wouldn't get anything" (≈1:17:08). The proof is for next time: "once you know the more abstract concepts, then it's quite easy" (≈1:15:25–1:16:16). It is given in [Lecture 6](06-cauchy-convergence-theorem.md).
 
 **Application** (notes p. 6; ≈1:17:08–1:17:53). Set up in more general spaces than $\mathbf{R}$, the fixed point can be a solution to a differential equation; this is "a standard application to get solutions to differential equations" (≈1:17:53). The notes: "Application of contracting mapping theorem: Existence of solutions to ODEs. More on all of this next time......" (notes p. 6). Colding closes: next time "We'll talk about the contracting mapping theorem. We won't talk quite yet about the applications" (≈1:17:53). On the OCW lecture list, Lectures 22 and 23 cover ordinary differential equations and the Picard–Lindelöf theorem; this knowledge base does not yet cover them. See [the contracting mapping theorem](contracting-mapping-theorem.md).
 
@@ -273,12 +273,12 @@ Where they differ, this page follows the notes and gives the board's version wit
 
 ## Where the lecture stops
 
-The course now has a condition that guarantees convergence, the monotone convergence theorem, and has used it to give the decimal picture of $\sqrt{2}$ a precise meaning. Several facts were used without proof and are promised or simply asserted: that $\frac{1}{n^2}$ and $10^{1-n}$ tend to $0$; that a limit keeps an inequality ($\leq$ or $\geq$) satisfied by every term, and the related claim that $c \leq b$ for the limits of the inf and sup sequences ("we'll prove this later", ≈32:54). The Cauchy convergence theorem and the contracting mapping theorem are stated, with proofs promised for next time (≈1:11:21, ≈1:17:53). On the OCW lecture list, Lecture 6 is "Cauchy Convergence Theorem" (TBB Section 2.12), which is not yet in this knowledge base.
+The course now has a condition that guarantees convergence, the monotone convergence theorem, and has used it to give the decimal picture of $\sqrt{2}$ a precise meaning. Several facts were used without proof and are promised or simply asserted: that $\frac{1}{n^2}$ and $10^{1-n}$ tend to $0$; that a limit keeps an inequality ($\leq$ or $\geq$) satisfied by every term, and the related claim that $c \leq b$ for the limits of the inf and sup sequences ("we'll prove this later", ≈32:54). The Cauchy convergence theorem and the contracting mapping theorem are stated, with proofs promised for next time (≈1:11:21, ≈1:17:53). [Lecture 6](06-cauchy-convergence-theorem.md), "Cauchy Convergence Theorem" (TBB Section 2.12), proves that a Cauchy sequence converges, assuming the Bolzano–Weierstrass theorem, and proves the contracting mapping theorem from it.
 
 ## Related pages
 
 - [The monotone convergence theorem](monotone-convergence-theorem.md): monotone sequences, the theorem and its proof, the sup and inf of the tails, and the $\sqrt{2}$ application.
-- [Sequences and limits](sequences-and-limits.md): sequences, convergence and divergence across Lectures 2 to 5.
+- [Sequences and limits](sequences-and-limits.md): sequences, convergence and divergence across Lectures 2 to 6.
 - [Algebraic properties of limits](algebraic-properties-of-limits.md): the four rules, used here for the quotient example and for $a^2 = 2$.
 - [The square root of 2](square-root-of-2.md): the course's proofs that $\sqrt{2}$ is not rational and is real, including this lecture's decimal construction.
 - [Supremum and infimum](supremum-and-infimum.md): the $\sup$ and $\inf$ in the theorem and in the tails construction.
@@ -288,3 +288,4 @@ The course now has a condition that guarantees convergence, the monotone converg
 - [Subsequences](subsequences.md): the review at the start of the lecture.
 - [Writing proofs](writing-proofs.md): scrap paper first, then the written proof, as in the proof that $a_n$ is increasing.
 - [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): the previous lecture.
+- [Lecture 6 — Cauchy Convergence Theorem](06-cauchy-convergence-theorem.md): the next lecture.

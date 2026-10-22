@@ -32,7 +32,9 @@ The sentence above is the answer, and it is exactly what the proof of the interm
 
 **In Lecture 5:** the first theorem that proves a limit exists. A bounded monotone sequence converges, to the $\sup$ or the $\inf$ of its terms, and the proof rests on the least upper bound of the terms existing, which is completeness. With it, the decimals $1$, $1.4$, $1.41$, $1.414$, … are shown to converge to a number whose square is $2$: "one more proof that square root of 2 is a real number" (Lecture 5, ≈59:33). The lecture also defines Cauchy sequences and states that a sequence of real numbers converges if and only if it is Cauchy, "for now, everything is in R" (≈1:11:21). See [Lecture 5](05-monotone-convergence-theorem.md), [the monotone convergence theorem](monotone-convergence-theorem.md) and [Cauchy sequences](cauchy-sequences.md).
 
-**Not yet:** on the OCW lecture list, Lecture 6 is "Cauchy Convergence Theorem", where Lecture 5 promises the proof of that theorem. **This knowledge base covers Lectures 1 to 5 only.**
+**In Lecture 6:** a second way to prove that a limit exists in $\mathbf{R}$: every Cauchy sequence of real numbers converges. The proof uses the Bolzano–Weierstrass theorem, that every bounded sequence of real numbers has a convergent subsequence, which is assumed and promised for the next lecture (Lecture 6, ≈50:17–58:28). With these come a fixed point for every contracting map on $\mathbf{R}$, the rigorous definition of continuity, and the extreme value theorem for continuous functions on $[a, b]$. See [Lecture 6](06-cauchy-convergence-theorem.md), [Cauchy sequences](cauchy-sequences.md) and [the Bolzano–Weierstrass theorem](bolzano-weierstrass-theorem.md).
+
+**Not yet:** on the OCW lecture list, Lecture 7 is "Bolzano–Weierstrass Theorem; Cauchy Sequences; Series", where the proof of the Bolzano–Weierstrass theorem promised in Lecture 6 belongs. **This knowledge base covers Lectures 1 to 6 only.**
 
 ## Lectures
 
@@ -41,3 +43,4 @@ The sentence above is the answer, and it is exactly what the proof of the interm
 - [Lecture 3 — How to Write a Proof; Archimedean Property](03-how-to-write-a-proof-archimedean-property.md): $\sup$ and $\inf$, and formal proofs of $\sqrt{2} \in \mathbf{R}$ and the Archimedean property.
 - [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): limits of sequences of real numbers.
 - [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): bounded monotone sequences converge; $\sqrt{2}$ as the limit of its decimals.
+- [Lecture 6 — Cauchy Convergence Theorem](06-cauchy-convergence-theorem.md): Cauchy sequences of real numbers converge, from the Bolzano–Weierstrass theorem.

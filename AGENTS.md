@@ -81,7 +81,9 @@ printed slips, which slides were rendered and why) goes in
   ("TOBIAS COLDING:" or "PROFESSOR:"), with sound tags. The edit is light (tags, filler, false starts;
   caption mishearings such as "O1" for 0₁ or "c" for z). Some lectures' captions
   label students ("STUDENT:") and some carry no audience labels: keep the labels the
-  captions give, and never infer a student question without evidence in the text. Where
+  captions give, and never infer a student question without evidence in the text. Keep each
+  [INAUDIBLE] tag in place as *[inaudible]*: never fill it with a guessed word, and drop it
+  only inside a removed false start. Where
   Colding misspeaks (e.g. "denominator" for "numerator"), keep his words and add an
   *[Ed: …]* mark rather than correcting silently. Ed marks are spelled out like the
   speech around them, never notation. Quote the edited transcript, never the verbatim

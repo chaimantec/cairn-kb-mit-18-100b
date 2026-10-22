@@ -1,8 +1,8 @@
 # Writing proofs
 
-**What 18.100B expects a proof to look like, as stated so far: the worked examples of Lectures 1 and 2, Lecture 3's advice on writing a formal proof, Lecture 4's first proofs with $\epsilon$ and $N$, and Lecture 5's advice to analyse what has to be proved before writing it down.**
+**What 18.100B expects a proof to look like, as stated so far: the worked examples of Lectures 1 and 2, Lecture 3's advice on writing a formal proof, Lecture 4's first proofs with $\epsilon$ and $N$, Lecture 5's advice to analyse what has to be proved before writing it down, and Lecture 6's proofs from results not yet proved.**
 
-Learning to write a mathematical proof is one of the course's two stated goals; the other is proving the theorems of calculus (Lecture 1, ≈4:44; notes p. 1). Lecture 3, "How to Write a Proof; Archimedean Property", is given over to it: it rewrites two of Lecture 2's proofs as formal proofs and says what that means. What follows is what Lectures 1 to 4 say and show.
+Learning to write a mathematical proof is one of the course's two stated goals; the other is proving the theorems of calculus (Lecture 1, ≈4:44; notes p. 1). Lecture 3, "How to Write a Proof; Archimedean Property", is given over to it: it rewrites two of Lecture 2's proofs as formal proofs and says what that means. What follows is what Lectures 1 to 6 say and show.
 
 ## Why rigor
 
@@ -65,6 +65,12 @@ In Lecture 5's proof that the decimal approximations $a_n = \frac{b_n}{10^{n-1}}
 
 The proof of the monotone convergence theorem in the same lecture is a compact instance of Lecture 4's habits: it uses each half of a definition exactly once, that $\sup \lbrace a_n \rbrace$ is an upper bound and that it is the least one, and announces the switch, "Now I'm going to use that as the least upper bound" (≈38:32). See [the monotone convergence theorem](monotone-convergence-theorem.md).
 
+## Proving a theorem from one not yet proved (Lecture 6)
+
+Lecture 6 proves the Cauchy convergence theorem from the Bolzano–Weierstrass theorem, which it states but leaves for the next lecture, and says so: "But we're going to cheat just a little bit, because we are going to deduce it from another theorem that I will prove next time" (Lecture 6, ≈50:17). The contracting mapping theorem is proved from an exercise on Problem Set 3, of which Colding shows only "a special case that is a key starting point", the estimate for two consecutive terms, and he says why it is not yet a proof: "That's not enough to prove that's a Cauchy sequence, right, because I need to prove that for all n and m sufficiently large" (≈22:52).
+
+The proofs reuse Lecture 4's habits. To show that a Cauchy sequence is bounded he applies the definition with $\epsilon = 1$ and then fixes one index: "I'm only applying this now and just choosing just one single m" (≈6:00). The proof that a Cauchy sequence converges chooses one number for each hypothesis, $N_1$ and $N_2$, each with $\frac{\epsilon}{2}$, and takes $N = \max \lbrace N_1, N_2 \rbrace$ (≈55:14–56:45). The proof that a continuous function preserves limits applies the definition of convergence with $\delta$ in the place of $\epsilon$ (≈1:05:08). See the [Lecture 6 page](06-cauchy-convergence-theorem.md).
+
 ## Board versus notes
 
 Colding says the posted notes are written "slightly more rigorous", with "a little bit more meat", than the shorter board versions, and asks students to read them too (≈47:33–48:18). For Lecture 1, the notes and the board do differ in places. The board names the axiom behind each step of the ordered-field proof, while the notes compress it into three sentences. The board makes the commutativity step in the zero proof explicit, while the notes do not. In Lecture 2 the differences are of a different kind: the board and the notes define the set in the proof of $\sqrt{2} \in \mathbf{R}$ over different number systems, and label the steps of the last corollary differently. The [Lecture 2 page](02-introduction-to-real-numbers-cont.md#board-versus-notes) lists them. In Lecture 3 the formal proofs are the same on the board and in the notes in structure, but they name the auxiliary numbers differently and justify some bounds by different routes; the [Lecture 3 page](03-how-to-write-a-proof-archimedean-property.md#board-versus-notes) lists them. In Lecture 4 the board goes further than the notes: it proves the product property in full and carries the reciprocal property almost to the end, where the notes give outlines; the [Lecture 4 page](04-sequences-convergence.md#board-versus-notes) lists the differences. In Lecture 5 the board again spells out what the notes compress, such as each algebraic rule applied in turn in the example $\frac{n^2 + 1}{n^2 + n + 1} \to 1$, and the board's construction of two monotone sequences from any bounded sequence is not in the notes at all; the [Lecture 5 page](05-monotone-convergence-theorem.md#board-versus-notes) lists the differences.
@@ -80,3 +86,4 @@ Colding says students need patience: learning to write proofs takes a little tim
 - [Lecture 3 — How to Write a Proof; Archimedean Property](03-how-to-write-a-proof-archimedean-property.md): scrap paper versus the formal proof, and two of Lecture 2's proofs written out formally.
 - [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): the first proofs with $\epsilon$ and $N$, formal proofs beside outlines, and the halfway trick.
 - [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): analysing an inequality on scrap paper before writing the proof.
+- [Lecture 6 — Cauchy Convergence Theorem](06-cauchy-convergence-theorem.md): proofs from a theorem promised for later and from a homework exercise, and the habits of Lecture 4 again.

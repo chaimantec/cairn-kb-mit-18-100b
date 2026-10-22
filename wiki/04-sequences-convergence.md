@@ -253,7 +253,7 @@ Where they differ, this page follows the notes and gives the board's version wit
 
 ## Where the lecture stops
 
-The course now has convergence, its first consequences (boundedness, the algebraic properties, subsequences), and a worked proof with $\epsilon$ and $N$. Lecture 3's notes asked "When does a limit exist?", and so far the course has only a necessary condition: a convergent sequence is bounded. [Lecture 5](05-monotone-convergence-theorem.md), "Monotone Convergence Theorem" (TBB Sections 2.8, 2.9 and 2.11), gives the first sufficient one: a bounded monotone sequence converges. On the OCW lecture list, Lecture 6 is "Cauchy Convergence Theorem" (TBB Section 2.12), which is not in this knowledge base yet.
+The course now has convergence, its first consequences (boundedness, the algebraic properties, subsequences), and a worked proof with $\epsilon$ and $N$. Lecture 3's notes asked "When does a limit exist?", and so far the course has only a necessary condition: a convergent sequence is bounded. [Lecture 5](05-monotone-convergence-theorem.md), "Monotone Convergence Theorem" (TBB Sections 2.8, 2.9 and 2.11), gives the first sufficient one: a bounded monotone sequence converges. [Lecture 6](06-cauchy-convergence-theorem.md), "Cauchy Convergence Theorem" (TBB Section 2.12), gives a second: every Cauchy sequence converges.
 
 ## Related pages
 
