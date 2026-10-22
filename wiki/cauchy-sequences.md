@@ -1,6 +1,6 @@
 # Cauchy sequences
 
-**The definition of a Cauchy sequence and how it differs from convergence (Lecture 5); the theorem that a Cauchy sequence is bounded, and the proof that every Cauchy sequence of real numbers converges, from the Bolzano–Weierstrass theorem (Lecture 6); and what is still missing: the converse, that a convergent sequence is Cauchy, is stated but not proved in the material here.**
+**The definition of a Cauchy sequence and how it differs from convergence (Lecture 5); the theorem that a Cauchy sequence is bounded, and the proof that every Cauchy sequence of real numbers converges, from the Bolzano–Weierstrass theorem (Lecture 6), which Lecture 7 proves; the theorem's uses for series in Lecture 7; and what is still missing: the converse, that a convergent sequence is Cauchy, is stated and used but not proved in the material here.**
 
 Notation: $\mathbf{N}$ and $\mathbf{R}$ are the natural and the real numbers, set in bold as in the notes, $\vert x \vert$ is the absolute value of $x$, and a subsequence of $a_n$ is written $a_{n_k}$ (see [subsequences](subsequences.md)). On the board in Lecture 6 the sequence is called $x_n$; the notes call it $a_n$, as here.
 
@@ -42,7 +42,7 @@ Lecture 5 states it without proof, "for now, everything is in R at the moment", 
 
 ## Proof that a Cauchy sequence converges
 
-(Lecture 6, ≈49:32–58:28; Lecture 6 notes p. 3.) The proof uses the [Bolzano–Weierstrass theorem](bolzano-weierstrass-theorem.md), that every bounded sequence has a convergent subsequence, which Lecture 6 assumes and promises for the next lecture: "we're going to cheat just a little bit, because we are going to deduce it from another theorem that I will prove next time" (≈50:17).
+(Lecture 6, ≈49:32–58:28; Lecture 6 notes p. 3.) The proof uses the [Bolzano–Weierstrass theorem](bolzano-weierstrass-theorem.md), that every bounded sequence has a convergent subsequence, which Lecture 6 assumes and promises for the next lecture: "we're going to cheat just a little bit, because we are going to deduce it from another theorem that I will prove next time" (≈50:17). Lecture 7 proves it, by halving intervals (Lecture 7, ≈2:25–22:12; Lecture 7 notes pp. 1–2), and opens by recalling this argument: "you would then want to prove that the limit is actually a limit for the whole sequence. That's what we did, right?" (Lecture 7, ≈2:25).
 
 1. A Cauchy sequence $a_n$ is bounded, so by the Bolzano–Weierstrass theorem it has a convergent subsequence $a_{n_k}$, with limit $a$ (≈52:38–54:23).
 2. Let $\epsilon \gt 0$. There is an $N_1$ such that $\vert a_n - a_m \vert \lt \frac{\epsilon}{2}$ for $m, n \geq N_1$, because $a_n$ is Cauchy, and an $N_2$ such that $\vert a_{n_k} - a \vert \lt \frac{\epsilon}{2}$ for $k \geq N_2$, because the subsequence converges (≈55:14–55:59).
@@ -59,6 +59,9 @@ The notes take the last step "if $n \geq N$ and $k \geq N$"; on the board the ca
 - **The contracting mapping theorem** (Lecture 6, ≈27:41–36:43; notes p. 2). Iterating a contracting map from any starting point gives a Cauchy sequence (an exercise on Problem Set 3), so it converges, and its limit is a fixed point. "So from the Cauchy convergence theorem, then you get the contracting mapping theorem" (≈35:56). See [the contracting mapping theorem](contracting-mapping-theorem.md).
 - **Newton's method** (Lecture 6, ≈37:31–49:32; notes pp. 2–3), through the contracting mapping theorem.
 - **The extreme value theorem.** Colding introduces it as "another application of the Cauchy convergence theorem" (Lecture 6, ≈58:28), but the proof uses the Bolzano–Weierstrass theorem directly (≈1:11:40). See [the extreme value theorem](extreme-value-theorem.md).
+- **Absolute convergence implies convergence** (Lecture 7, ≈1:02:21–1:05:31; Lecture 7 notes pp. 3–4). If $\sum \vert a_i \vert$ converges, its partial sums form a Cauchy sequence; the partial sums of $\sum a_i$ differ by no more, so they are Cauchy too, and they converge by the Cauchy convergence theorem. See [series](series.md#absolute-convergence).
+
+Lecture 7 also uses the other direction, that a convergent sequence is a Cauchy sequence, three times: in the absolute-convergence proof above, for the partial sums of $\sum \vert a_i \vert$ (≈1:04:44); to show that the geometric series diverges when $\vert c \vert \geq 1$, because consecutive partial sums stay at least $1$ apart, "Remember that if a sequence is convergent, if a sequence is convergent, then it is a Cauchy sequence" (≈43:16); and to show that a series whose terms do not go to $0$ diverges (≈55:11). See [the geometric series](geometric-series.md) and [series](series.md#first-check-do-the-terms-go-to-zero). The proof of that direction is still not in the material here; the Lecture 7 notes' recap states only "Every Cauchy sequence is convergent" (Lecture 7 notes p. 1).
 
 ## From the notes: Cauchy
 
@@ -66,9 +69,10 @@ The Lecture 5 notes quote a short biography "From Wikipedia": Baron Augustin-Lou
 
 ## Not yet in this knowledge base
 
-On the OCW lecture list, Lecture 7 is "Bolzano–Weierstrass Theorem; Cauchy Sequences; Series" (TBB Sections 2.11–2.12 and 3.4), where the proof of the Bolzano–Weierstrass theorem promised in Lecture 6 belongs. It is not covered here yet.
+On the OCW lecture list, Lecture 8 is "Convergence Tests for Series; Power Series" (TBB Sections 3.5–3.6) and Lecture 12 is "Convergence in Metric Spaces; Operations on Sets". Neither is covered here yet.
 
 ## Lectures
 
 - [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): the definition and the statement of the theorem.
 - [Lecture 6 — Cauchy Convergence Theorem](06-cauchy-convergence-theorem.md): boundedness, the proof that a Cauchy sequence converges, and the applications.
+- [Lecture 7 — Bolzano–Weierstrass Theorem; Cauchy Sequences; Series](07-bolzano-weierstrass-theorem-cauchy-sequences-series.md): the proof of the Bolzano–Weierstrass theorem, and both directions of the Cauchy convergence theorem used for series.

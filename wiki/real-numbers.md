@@ -34,7 +34,9 @@ The sentence above is the answer, and it is exactly what the proof of the interm
 
 **In Lecture 6:** a second way to prove that a limit exists in $\mathbf{R}$: every Cauchy sequence of real numbers converges. The proof uses the Bolzano–Weierstrass theorem, that every bounded sequence of real numbers has a convergent subsequence, which is assumed and promised for the next lecture (Lecture 6, ≈50:17–58:28). With these come a fixed point for every contracting map on $\mathbf{R}$, the rigorous definition of continuity, and the extreme value theorem for continuous functions on $[a, b]$. See [Lecture 6](06-cauchy-convergence-theorem.md), [Cauchy sequences](cauchy-sequences.md) and [the Bolzano–Weierstrass theorem](bolzano-weierstrass-theorem.md).
 
-**Not yet:** on the OCW lecture list, Lecture 7 is "Bolzano–Weierstrass Theorem; Cauchy Sequences; Series", where the proof of the Bolzano–Weierstrass theorem promised in Lecture 6 belongs. **This knowledge base covers Lectures 1 to 6 only.**
+**In Lecture 7:** the proof of the Bolzano–Weierstrass theorem, so that the Cauchy convergence theorem of Lecture 6 no longer rests on a promise. A bounded sequence is trapped in smaller and smaller halves of an interval, and the endpoints of the halves are two monotone sequences that converge, by the monotone convergence theorem and so by completeness, to the same limit (Lecture 7, ≈2:25–22:12). The lecture then starts on series, the sequences of partial sums of a sequence. See [Lecture 7](07-bolzano-weierstrass-theorem-cauchy-sequences-series.md), [the Bolzano–Weierstrass theorem](bolzano-weierstrass-theorem.md) and [series](series.md).
+
+**Not yet:** on the OCW lecture list, Lecture 8 is "Convergence Tests for Series; Power Series". **This knowledge base covers Lectures 1 to 7 only.**
 
 ## Lectures
 
@@ -44,3 +46,4 @@ The sentence above is the answer, and it is exactly what the proof of the interm
 - [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): limits of sequences of real numbers.
 - [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): bounded monotone sequences converge; $\sqrt{2}$ as the limit of its decimals.
 - [Lecture 6 — Cauchy Convergence Theorem](06-cauchy-convergence-theorem.md): Cauchy sequences of real numbers converge, from the Bolzano–Weierstrass theorem.
+- [Lecture 7 — Bolzano–Weierstrass Theorem; Cauchy Sequences; Series](07-bolzano-weierstrass-theorem-cauchy-sequences-series.md): the proof of the Bolzano–Weierstrass theorem.

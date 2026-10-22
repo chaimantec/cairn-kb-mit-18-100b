@@ -9,11 +9,11 @@
     "courseUrl": "https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/"
   },
   "coverage": {
-    "lecturesCovered": 6,
+    "lecturesCovered": 7,
     "lecturesTotal": 25,
-    "transcripts": 6,
-    "wikiLecturePages": 6,
-    "wikiTopicPages": 18
+    "transcripts": 7,
+    "wikiLecturePages": 7,
+    "wikiTopicPages": 22
   },
   "materials": {
     "primary": "notes",
@@ -23,7 +23,7 @@
     },
     "notes": {
       "available": 25,
-      "transcribed": 6,
+      "transcribed": 7,
       "note": "Typed LaTeX lecture notes by the instructor, one PDF per lecture and per exam review (25), plus an all-in-one PDF. Transcribed page by page to raw/notes/ with the mathematics in LaTeX. There are no slides: the lectures are given at the blackboard."
     },
     "method": "page-images",
@@ -31,7 +31,7 @@
     "figureAudit": {
       "decksAudited": 0,
       "decksTotal": 0,
-      "note": "false because no visual audit was run, not because something is unchecked: the transcribed notes (Lectures 1 to 6) contain no figures. Every equation in all six notes transcriptions was compared against the PDF's text layer in the parent; the prose was taken from the text layer, which is clean for pdfTeX output."
+      "note": "false because no visual audit was run, not because something is unchecked: the transcribed notes (Lectures 1 to 7) contain no figures. Every equation in all seven notes transcriptions was compared against the PDF's text layer in the parent; the prose was taken from the text layer, which is clean for pdfTeX output."
     }
   },
   "provenance": {
@@ -40,15 +40,16 @@
       "claude-sonnet-5-5"
     ],
     "caveats": [
-      "Covers Lectures 1 to 6 only (videos 1-6 of 25: 23 lectures and two exam reviews). Topic pages reflect those six lectures only.",
-      "The course takes for granted, without proof, that a complete ordered field containing Q exists (Lecture 2); the KB does not supply a proof. Lecture 6 proves that every Cauchy sequence converges, but assumes the Bolzano-Weierstrass theorem (proof promised for Lecture 7, not yet in this KB); it proves the contracting mapping theorem from that and from a Problem Set 3 exercise (iterates of a contracting map form a Cauchy sequence) that it only outlines. Colding says the converse, that a convergent sequence is Cauchy, was proved in Lecture 5, but the Lecture 5 transcript and notes contain no such proof, so the KB has none.",
+      "Covers Lectures 1 to 7 only (videos 1-7 of 25: 23 lectures and two exam reviews). Topic pages reflect those seven lectures only.",
+      "The course takes for granted, without proof, that a complete ordered field containing Q exists (Lecture 2); the KB does not supply a proof. Lecture 6 proves that every Cauchy sequence converges, but assumes the Bolzano-Weierstrass theorem, which Lecture 7 proves; it proves the contracting mapping theorem from that and from a Problem Set 3 exercise (iterates of a contracting map form a Cauchy sequence) that it only outlines. Colding says the converse, that a convergent sequence is Cauchy, was proved in Lecture 5, but the Lecture 5 transcript and notes contain no such proof, so the KB has none.",
       "The Lecture 3 notes go further than the Lecture 3 video (a corollary of the Archimedean property, two examples of sequences and the definition of convergence); the wiki marks that material as notes-only.",
       "In Lecture 4 the board goes further than the notes: it proves the product rule for limits in full and nearly completes the reciprocal rule, where the notes give outlines. The wiki gives both and says which is which.",
       "Lecture 5 uses without proof that a limit keeps an inequality satisfied by every term (and that 1/n^2 and 10^(1-n) tend to 0); the wiki says so rather than supplying proofs. Lecture 5's construction of monotone sequences from the sup and inf of the tails of a bounded sequence is on the board only, not in the notes.",
       "Lecture 6's discussion of Newton's method uses derivatives, the quotient rule and the mean value theorem before the course defines them (Lectures 15-16 on the OCW list), needs a local version of the contracting mapping theorem that is not stated, and leaves the contraction condition imprecise; the wiki says so rather than filling it in. Lecture 6 also uses without proof that a limit is unique and that a limit of points of [a, b] lies in [a, b].",
+      "Lecture 7 uses without proof that a sequence squeezed between two sequences with the same limit has that limit, that |c|^n tends to 0 for |c| < 1, and that a convergent sequence is Cauchy (for the divergence of the geometric series, the check that the terms of a convergent series tend to 0, and absolute convergence); its Bolzano-Weierstrass proof treats only sequences in [0, 1]. It defers the convergence of the alternating harmonic series, and neither the lecture nor the notes prove any convergence test. The second comparison test and the ratio test are in the notes only; the wiki marks them notes-only.",
       "Transcripts are a light copy-edit of OCW's professional captions; uncertain spots are marked [Ed: ...], and the verbatim captions are kept in raw/transcripts/original/. Student speech is marked only where the captions label it.",
       "The lecture notes transcriptions were read from page images by Sonnet; the parent checked every equation against the PDF text layer. Printed typos are listed per notes file under 'Printed slips', not corrected in the body.",
-      "The Lecture 5 notes (p. 6) quote a short Wikipedia biography of Cauchy, reproduced in raw/notes/ and attributed in LICENSE.md (Wikipedia text is CC BY-SA)."
+      "The Lecture 5 notes (p. 6) and the Lecture 7 notes (p. 2) quote short Wikipedia biographies of Cauchy and of Weierstrass, reproduced in raw/notes/ and attributed in LICENSE.md (Wikipedia text is CC BY-SA)."
     ]
   },
   "entryPoint": "INDEX.md",

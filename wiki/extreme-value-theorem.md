@@ -12,7 +12,7 @@ Colding stresses both hypotheses: "It needs to be continuous at all points. And 
 
 ## The proof
 
-The proof is for the supremum; "The proof that the infimum is the same with obvious modification" (Lecture 6 notes p. 4; ≈1:09:56). It needs three results: the [Bolzano–Weierstrass theorem](bolzano-weierstrass-theorem.md), assumed in Lecture 6 and promised for the next lecture; the theorem that a continuous function takes a convergent sequence to a convergent sequence (see [continuous functions](continuous-functions.md)); and Lecture 4's theorem that a subsequence of a convergent sequence has the same limit (see [subsequences](subsequences.md)).
+The proof is for the supremum; "The proof that the infimum is the same with obvious modification" (Lecture 6 notes p. 4; ≈1:09:56). It needs three results: the [Bolzano–Weierstrass theorem](bolzano-weierstrass-theorem.md), assumed in Lecture 6 and proved in Lecture 7; the theorem that a continuous function takes a convergent sequence to a convergent sequence (see [continuous functions](continuous-functions.md)); and Lecture 4's theorem that a subsequence of a convergent sequence has the same limit (see [subsequences](subsequences.md)).
 
 1. **A sequence approaching the sup** (≈1:09:56–1:10:43). Choose $x_n \in [a, b]$ with $f(x_n) \to \sup f$ (notes p. 4). Colding allows the sup to be infinite a priori, "if there is no upper bound, then I will write infinity" (≈1:09:56); then the sequence is one where "the value of these become larger and larger without bound" (≈1:10:43).
 2. **A convergent subsequence** (≈1:10:43–1:12:26). The $x_n$ lie in $[a, b]$, so the sequence is bounded, and by the Bolzano–Weierstrass theorem it has a convergent subsequence $x_{n_k} \to x$ (notes p. 4; on the board the limit is called $x_M$). The sequence $x_n$ itself need not converge (≈1:11:40).
@@ -37,7 +37,7 @@ After the proof a student asked, in a question that is partly inaudible, about s
 
 ## Not yet in this knowledge base
 
-On the OCW lecture list, Lecture 11 is "Extreme and Intermediate Value Theorem; Metric Spaces" (TBB Sections 5.4 and 13.1–13.2), which is not covered here yet, and the proof of the Bolzano–Weierstrass theorem (Lecture 7) is not covered either.
+On the OCW lecture list, Lecture 11 is "Extreme and Intermediate Value Theorem; Metric Spaces" (TBB Sections 5.4 and 13.1–13.2), which is not covered here yet. The proof of the Bolzano–Weierstrass theorem, which the proof above uses, is on [its own page](bolzano-weierstrass-theorem.md) (Lecture 7).
 
 ## Lectures
 

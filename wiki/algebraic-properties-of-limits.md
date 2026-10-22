@@ -1,6 +1,6 @@
 # Algebraic properties of limits
 
-**Limits of sequences respect constant multiples, sums, products and quotients: the theorem as the Lecture 4 notes state it, the proofs of all four parts, the trick of comparing through a term halfway between, and how Lecture 5 uses them.**
+**Limits of sequences respect constant multiples, sums, products and quotients: the theorem as the Lecture 4 notes state it, the proofs of all four parts, the trick of comparing through a term halfway between, and how Lectures 5 and 7 use them.**
 
 Notation: $a_n$ and $b_n$ are sequences of real numbers, $\vert x \vert$ is the absolute value of $x$ (Colding often says "norm"), $\mathbf{N} = \lbrace 1, 2, 3, \cdots \rbrace$ and $\mathbf{R}$ are set in bold as in the notes. A sequence $a_n$ converges to $a$ if for every $\epsilon \gt 0$ there is an $N \in \mathbf{N}$ with $\vert a_n - a \vert \lt \epsilon$ for all $n \geq N$; see [sequences and limits](sequences-and-limits.md).
 
@@ -87,7 +87,7 @@ and since $a$ is a constant, going further out than $N_1$ makes this smaller tha
 
 The notes' outline is the same argument with $b_n$ and $b$: it uses $\frac{1}{b_n} - \frac{1}{b} = \frac{\vert b - b_n \vert}{\vert b \vert \thinspace \vert b_n \vert}$ (printed without absolute value bars on the left, a [printed slip](../raw/notes/04-sequences-convergence.md#printed-slips)) and $\vert b_n \vert \geq \vert b \vert - \vert b_n - b \vert$ to bound the denominator from below, and leaves the details (notes p. 4).
 
-## The rules at work (Lecture 5)
+## The rules at work (Lectures 5 and 7)
 
 Lecture 5 reviews the four rules with the sum first and the constant multiple second; Colding says "I think I might have exchanged the order of 1 and 2 last time", and that there is no particular convention (Lecture 5, ≈4:50–7:20). He states the fourth rule for reciprocals: if $a_n \neq 0$ for all $n$ and $a \neq 0$, then $\frac{1}{a_n} \to \frac{1}{a}$ (≈6:29–7:20). The Lecture 5 notes keep Lecture 4's order and also state the fourth rule for a reciprocal, $c_n = \frac{1}{b_n}$ with limit $\frac{1}{b}$ (Lecture 5 notes p. 1).
 
@@ -99,7 +99,10 @@ On the board each rule is applied in turn. Since $\frac{1}{n} \to 0$, $\frac{1}{
 
 **In the proof that the decimals of $\sqrt{2}$ converge** (Lecture 5 notes p. 4; ≈56:56–1:04:58). The rule for products gives $a_n^2 \to a^2$ from $a_n \to a$, and the rules for sums and products give $\left( a_n + 10^{1-n} \right)^2 \to a^2$ from $10^{1-n} \to 0$. The step from an inequality for every term to the same inequality for the limit is used there without proof. See [the monotone convergence theorem](monotone-convergence-theorem.md).
 
+**In the sum of the geometric series** (Lecture 7, ≈39:21–40:55). For $\vert c \vert \lt 1$ the partial sums are $s_n = \frac{1 - c^{n+1}}{1 - c}$, and $c^{n+1} \to 0$, so "just by the algebraic rules for limits", $s_n \to \frac{1}{1-c}$ (≈40:55). That $c^{n+1} \to 0$ is used without proof. See [the geometric series](geometric-series.md).
+
 ## Lectures
 
 - [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): the statement, the proofs on the board, the students' questions, and where the board and the notes differ.
 - [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): the review, the worked example, and the rules used in the proof about $\sqrt{2}$.
+- [Lecture 7 — Bolzano–Weierstrass Theorem; Cauchy Sequences; Series](07-bolzano-weierstrass-theorem-cauchy-sequences-series.md): the rules used for the sum of the geometric series.

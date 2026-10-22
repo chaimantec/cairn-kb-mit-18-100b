@@ -80,13 +80,16 @@ printed slips, which slides were rendered and why) goes in
 - **Transcripts.** OCW captions are professional: punctuated, speaker-labelled
   ("TOBIAS COLDING:" or "PROFESSOR:"), with sound tags. The edit is light (tags, filler, false starts;
   caption mishearings such as "O1" for 0₁ or "c" for z). Some lectures' captions
-  label students ("STUDENT:") and some carry no audience labels: keep the labels the
+  label students ("STUDENT:" or "AUDIENCE:") and some carry no audience labels: keep the labels the
   captions give, and never infer a student question without evidence in the text. Keep each
   [INAUDIBLE] tag in place as *[inaudible]*: never fill it with a guessed word, and drop it
   only inside a removed false start. Where
   Colding misspeaks (e.g. "denominator" for "numerator"), keep his words and add an
-  *[Ed: …]* mark rather than correcting silently. Ed marks are spelled out like the
-  speech around them, never notation. Quote the edited transcript, never the verbatim
+  *[Ed: …]* mark rather than correcting silently; an Ed mark cites its evidence (the notes,
+  a later timestamp) or says "unclear", never what he "means" by guesswork. Ed marks are spelled out like the
+  speech around them, never notation. A caption's compressed notation ("2n" for a power of
+  2) stays as captioned unless the captions themselves give the spoken form at that point:
+  respelling it asserts what was said. Quote the edited transcript, never the verbatim
   captions: the edit respells names ("b n" for "bn"), so a quotation drafted from the
   captions no longer matches the file it cites. Check every quotation on a new or touched
   page mechanically against the edited transcripts and the notes before publishing.
