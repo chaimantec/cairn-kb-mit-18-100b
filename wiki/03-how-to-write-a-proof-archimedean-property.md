@@ -211,7 +211,7 @@ Where they differ, this page follows the notes and gives the board's version wit
 
 ## Where the lecture stops
 
-The proof that $\sqrt{2}$ is real and the proof of the Archimedean property are now written out as formal proofs, and the course has its notation for least upper and greatest lower bounds, $\sup$ and $\inf$. The lecture stops having defined a sequence, with the meaning of a limit promised for next time (≈1:19:05). The notes already give the definition of convergence. [Lecture 4](04-sequences-convergence.md), "Sequences; Convergence" (TBB Sections 2.1–2.2 and 2.4–2.7), takes it from there. On the OCW lecture list, Lecture 5 is "Monotone Convergence Theorem", which is not in this knowledge base yet.
+The proof that $\sqrt{2}$ is real and the proof of the Archimedean property are now written out as formal proofs, and the course has its notation for least upper and greatest lower bounds, $\sup$ and $\inf$. The lecture stops having defined a sequence, with the meaning of a limit promised for next time (≈1:19:05). The notes already give the definition of convergence. [Lecture 4](04-sequences-convergence.md), "Sequences; Convergence" (TBB Sections 2.1–2.2 and 2.4–2.7), takes it from there. After it comes [Lecture 5](05-monotone-convergence-theorem.md), "Monotone Convergence Theorem".
 
 ## Related pages
 

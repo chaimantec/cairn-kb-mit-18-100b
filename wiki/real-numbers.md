@@ -30,7 +30,9 @@ The sentence above is the answer, and it is exactly what the proof of the interm
 
 **In Lecture 4:** sequences of real numbers and their limits. Convergence is defined with $\epsilon$ and $N$; the Archimedean property proves that $0.999 \cdots = 1$; a convergent sequence is bounded; limits respect sums, products and quotients; and a sequence converges to $a$ exactly when all its subsequences do. See [Lecture 4](04-sequences-convergence.md), [sequences and limits](sequences-and-limits.md), [algebraic properties of limits](algebraic-properties-of-limits.md) and [subsequences](subsequences.md).
 
-**Not yet:** on the OCW lecture list, Lecture 5 is "Monotone Convergence Theorem" and Lecture 6 is "Cauchy Convergence Theorem". **This knowledge base covers Lectures 1 to 4 only.**
+**In Lecture 5:** the first theorem that proves a limit exists. A bounded monotone sequence converges, to the $\sup$ or the $\inf$ of its terms, and the proof rests on the least upper bound of the terms existing, which is completeness. With it, the decimals $1$, $1.4$, $1.41$, $1.414$, … are shown to converge to a number whose square is $2$: "one more proof that square root of 2 is a real number" (Lecture 5, ≈59:33). The lecture also defines Cauchy sequences and states that a sequence of real numbers converges if and only if it is Cauchy, "for now, everything is in R" (≈1:11:21). See [Lecture 5](05-monotone-convergence-theorem.md), [the monotone convergence theorem](monotone-convergence-theorem.md) and [Cauchy sequences](cauchy-sequences.md).
+
+**Not yet:** on the OCW lecture list, Lecture 6 is "Cauchy Convergence Theorem", where Lecture 5 promises the proof of that theorem. **This knowledge base covers Lectures 1 to 5 only.**
 
 ## Lectures
 
@@ -38,3 +40,4 @@ The sentence above is the answer, and it is exactly what the proof of the interm
 - [Lecture 2 — Introduction to Real Numbers (cont.)](02-introduction-to-real-numbers-cont.md): completeness, the existence of $\mathbf{R}$ (taken for granted), $\sqrt{2} \in \mathbf{R}$, and the Archimedean property.
 - [Lecture 3 — How to Write a Proof; Archimedean Property](03-how-to-write-a-proof-archimedean-property.md): $\sup$ and $\inf$, and formal proofs of $\sqrt{2} \in \mathbf{R}$ and the Archimedean property.
 - [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): limits of sequences of real numbers.
+- [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): bounded monotone sequences converge; $\sqrt{2}$ as the limit of its decimals.

@@ -84,7 +84,10 @@ printed slips, which slides were rendered and why) goes in
   captions give, and never infer a student question without evidence in the text. Where
   Colding misspeaks (e.g. "denominator" for "numerator"), keep his words and add an
   *[Ed: …]* mark rather than correcting silently. Ed marks are spelled out like the
-  speech around them, never notation.
+  speech around them, never notation. Quote the edited transcript, never the verbatim
+  captions: the edit respells names ("b n" for "bn"), so a quotation drafted from the
+  captions no longer matches the file it cites. Check every quotation on a new or touched
+  page mechanically against the edited transcripts and the notes before publishing.
 - **Not yet covered.** Topic pages state what later lectures will add only by their OCW
   titles and readings, never by supplying the content; say "not yet in this KB". When a
   lecture is added, grep all of `wiki/` for "not yet" and for its title, and rewrite every

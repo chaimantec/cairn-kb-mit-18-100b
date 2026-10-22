@@ -9,11 +9,11 @@
     "courseUrl": "https://ocw.mit.edu/courses/18-100b-real-analysis-spring-2025/"
   },
   "coverage": {
-    "lecturesCovered": 4,
+    "lecturesCovered": 5,
     "lecturesTotal": 25,
-    "transcripts": 4,
-    "wikiLecturePages": 4,
-    "wikiTopicPages": 12
+    "transcripts": 5,
+    "wikiLecturePages": 5,
+    "wikiTopicPages": 15
   },
   "materials": {
     "primary": "notes",
@@ -23,7 +23,7 @@
     },
     "notes": {
       "available": 25,
-      "transcribed": 4,
+      "transcribed": 5,
       "note": "Typed LaTeX lecture notes by the instructor, one PDF per lecture and per exam review (25), plus an all-in-one PDF. Transcribed page by page to raw/notes/ with the mathematics in LaTeX. There are no slides: the lectures are given at the blackboard."
     },
     "method": "page-images",
@@ -31,7 +31,7 @@
     "figureAudit": {
       "decksAudited": 0,
       "decksTotal": 0,
-      "note": "false because no visual audit was run, not because something is unchecked: the transcribed notes (Lectures 1 to 4) contain no figures. Every equation in all four notes transcriptions was compared against the PDF's text layer in the parent; the prose was taken from the text layer, which is clean for pdfTeX output."
+      "note": "false because no visual audit was run, not because something is unchecked: the transcribed notes (Lectures 1 to 5) contain no figures. Every equation in all five notes transcriptions was compared against the PDF's text layer in the parent; the prose was taken from the text layer, which is clean for pdfTeX output."
     }
   },
   "provenance": {
@@ -40,12 +40,14 @@
       "claude-sonnet-5-5"
     ],
     "caveats": [
-      "Covers Lectures 1 to 4 only (videos 1-4 of 25: 23 lectures and two exam reviews). Topic pages reflect those four lectures only.",
-      "The course takes for granted, without proof, that a complete ordered field containing Q exists (Lecture 2); the KB does not supply a proof. Lecture 4 defines convergence and proves its first consequences; the monotone and Cauchy convergence theorems (Lectures 5 and 6) are not yet in this KB.",
+      "Covers Lectures 1 to 5 only (videos 1-5 of 25: 23 lectures and two exam reviews). Topic pages reflect those five lectures only.",
+      "The course takes for granted, without proof, that a complete ordered field containing Q exists (Lecture 2); the KB does not supply a proof. Lecture 5 proves the monotone convergence theorem but only states the Cauchy convergence theorem and the contracting mapping theorem; their proofs, promised for Lecture 6, are not yet in this KB.",
       "The Lecture 3 notes go further than the Lecture 3 video (a corollary of the Archimedean property, two examples of sequences and the definition of convergence); the wiki marks that material as notes-only.",
       "In Lecture 4 the board goes further than the notes: it proves the product rule for limits in full and nearly completes the reciprocal rule, where the notes give outlines. The wiki gives both and says which is which.",
+      "Lecture 5 uses without proof that a limit keeps an inequality satisfied by every term (and that 1/n^2 and 10^(1-n) tend to 0); the wiki says so rather than supplying proofs. Lecture 5's construction of monotone sequences from the sup and inf of the tails of a bounded sequence is on the board only, not in the notes.",
       "Transcripts are a light copy-edit of OCW's professional captions; uncertain spots are marked [Ed: ...], and the verbatim captions are kept in raw/transcripts/original/. Student speech is marked only where the captions label it.",
-      "The lecture notes transcriptions were read from page images by Sonnet; the parent checked every equation against the PDF text layer. Printed typos are listed per notes file under 'Printed slips', not corrected in the body."
+      "The lecture notes transcriptions were read from page images by Sonnet; the parent checked every equation against the PDF text layer. Printed typos are listed per notes file under 'Printed slips', not corrected in the body.",
+      "The Lecture 5 notes (p. 6) quote a short Wikipedia biography of Cauchy, reproduced in raw/notes/ and attributed in LICENSE.md (Wikipedia text is CC BY-SA)."
     ]
   },
   "entryPoint": "INDEX.md",

@@ -52,8 +52,13 @@ All three results below use the least upper bound property directly. Full proofs
 - **$\mathbf{Q}$ is not complete** (notes p. 3; ≈52:20–54:54). The same argument would place $\sqrt{2}$ in any complete field containing $\mathbf{Q}$, and $\sqrt{2}$ is not rational. Concretely, the rationals whose square is at most $2$ have an upper bound in $\mathbf{Q}$, but no least upper bound in $\mathbf{Q}$ (≈1:12:05–1:12:51). See [the rational numbers](rational-numbers.md).
 - **The Archimedean property** (notes p. 3; ≈54:54–1:00:49). If $\mathbf{N}$ had an upper bound in $\mathbf{R}$, it would have a least one, $\alpha$; but then $\alpha - 1$ would also be an upper bound, a contradiction. See [the Archimedean property](archimedean-property.md).
 
+## A later use: the monotone convergence theorem (Lecture 5)
+
+The proof of the [monotone convergence theorem](monotone-convergence-theorem.md) starts from a monotone increasing sequence with $a_n \leq A$ for all $n$ and sets $a = \sup \lbrace a_n \rbrace$ (Lecture 5 notes p. 5; Lecture 5, ≈35:17). It then uses that $a$ is an upper bound, and that it is the *least* one: "Now I'm going to use that as the least upper bound" (≈38:32). Neither Lecture 5 nor its notes name completeness at that point, but the existence of this $\sup$ is exactly what the least upper bound property supplies: the set of terms is non-empty and bounded from above. So the theorem, and with it Lecture 5's proof that the decimals of $\sqrt{2}$ converge, rests on the completeness of $\mathbf{R}$.
+
 ## Lectures
 
 - [Lecture 1 — Introduction to Real Numbers](01-introduction-to-real-numbers.md): states that $\mathbf{R}$ is complete and defers the definition.
 - [Lecture 2 — Introduction to Real Numbers (cont.)](02-introduction-to-real-numbers-cont.md): the definitions and the three results above.
 - [Lecture 3 — How to Write a Proof; Archimedean Property](03-how-to-write-a-proof-archimedean-property.md): the notation $\sup A$, lower bounds and $\inf A$, and formal proofs of two of the results.
+- [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): the monotone convergence theorem, whose proof takes the $\sup$ of a bounded set of terms.

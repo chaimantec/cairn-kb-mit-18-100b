@@ -1,6 +1,6 @@
 # Supremum and infimum
 
-**Upper and lower bounds, the least upper bound $\sup A$ and the greatest lower bound $\inf A$, as the course defines them in Lectures 2 and 3, and why a bound depends on the set it is taken in.**
+**Upper and lower bounds, the least upper bound $\sup A$ and the greatest lower bound $\inf A$, as the course defines them in Lectures 2 and 3, why a bound depends on the set it is taken in, and where they are used through Lecture 5.**
 
 Throughout, $\mathbf{S}$ is an ordered set, $A$ is a subset of $\mathbf{S}$, and $\mathbf{N} = \lbrace 1, 2, 3, \cdots \rbrace$, $\mathbf{Q}$ and $\mathbf{R}$ are the natural, rational and real numbers, set in bold as in the notes. When a problem does not say what the larger set is, it is $\mathbf{R}$ (Lecture 3, ≈14:56).
 
@@ -53,12 +53,15 @@ Asked whether the half line above is complete, Colding answered that a subset of
 - **$\sqrt{2} \in \mathbf{R}$.** The positive $\alpha$ with $\alpha^2 = 2$ is $\sup A$ for $A = \lbrace x \in \mathbf{R} \vert x \gt 0 \text{ and } x^2 \leq 2 \rbrace$ (Lecture 3 notes pp. 2–3). See [the square root of 2](square-root-of-2.md).
 - **The Archimedean property.** If $\mathbf{N}$ were bounded from above, its supremum $\alpha$ would have $\alpha - 1$ as a smaller upper bound (Lecture 2 notes p. 3; Lecture 3 notes p. 4). See [the Archimedean property](archimedean-property.md).
 - **A convergent sequence is bounded.** On the board, the conclusion is that the $\sup$ of the set of all $\vert a_n \vert$ is at most $\max\lbrace C, \vert a \vert + 1 \rbrace$. Colding writes $\sup$ rather than a maximum because "if it's infinitely many numbers, it's not clear there is a maximum", and the bound need not be the sup itself (Lecture 4, ≈21:33, ≈25:43). See [sequences and limits](sequences-and-limits.md).
+- **The monotone convergence theorem.** A monotone increasing sequence that is bounded from above converges to $\sup \lbrace a_n \rbrace$, and a monotone decreasing one bounded from below converges to $\inf \lbrace a_n \rbrace$ (Lecture 5 notes p. 2). The proof uses both halves of the definition of $\sup$: $a_n \leq \sup \lbrace a_n \rbrace$ because it is an upper bound, and some term exceeds $\sup \lbrace a_n \rbrace - \epsilon$ because it is the least one (Lecture 5, ≈37:00–39:32). See [the monotone convergence theorem](monotone-convergence-theorem.md).
+- **The tails of a bounded sequence.** On the board, $b_n = \sup \lbrace a_n, a_{n+1}, \cdots \rbrace$ and $c_n = \inf \lbrace a_n, a_{n+1}, \cdots \rbrace$. Since $b_{n+1}$ and $c_{n+1}$ are taken over a smaller set, $b_n$ decreases and $c_n$ increases, and $c_n \leq b_n$ (Lecture 5, ≈23:24–31:21). The argument behind both is that a $\sup$ over a larger set is at least as large, and an $\inf$ over a larger set at most as large (≈25:03, ≈28:56).
 - **$\mathbf{Q}$ is not complete.** The rationals whose square is at most $2$ have an upper bound in $\mathbf{Q}$ but no least upper bound in $\mathbf{Q}$ (Lecture 2, ≈1:12:05–1:12:51). See [the rational numbers](rational-numbers.md).
 
-On the OCW lecture list, Lecture 9 is "Limsup and Liminf; Power Series; Continuous Functions; Exponential Function", which this knowledge base does not yet cover.
+Lecture 5 says that the $\sup$ and $\inf$ of the tails are "how one defines limsup and liminf", without defining either (Lecture 5, ≈1:08:10). On the OCW lecture list, Lecture 9 is "Limsup and Liminf; Power Series; Continuous Functions; Exponential Function", which this knowledge base does not yet cover.
 
 ## Lectures
 
 - [Lecture 2 — Introduction to Real Numbers (cont.)](02-introduction-to-real-numbers-cont.md): upper bounds, least upper bounds and completeness.
 - [Lecture 3 — How to Write a Proof; Archimedean Property](03-how-to-write-a-proof-archimedean-property.md): lower bounds, the notation $\sup$ and $\inf$, and the examples about the surrounding set.
 - [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): a $\sup$ in the proof that a convergent sequence is bounded. The Lecture 4 notes repeat the definitions, and call $\sup A$ "the greatest lower bound of $A$", a [printed slip](../raw/notes/04-sequences-convergence.md#printed-slips).
+- [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): $\sup$ and $\inf$ as the limits of bounded monotone sequences, and the $\sup$ and $\inf$ of the tails of a bounded sequence.

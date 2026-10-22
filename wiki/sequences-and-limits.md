@@ -1,6 +1,6 @@
 # Sequences and limits
 
-**What a sequence of real numbers is, the definition of convergence with $\epsilon$ and $N$, divergence, the course's examples (including $0.999 \cdots = 1$), and the theorem that a convergent sequence is bounded. Covers Lectures 2 to 4; the monotone and Cauchy convergence theorems (Lectures 5 and 6) are not yet in this knowledge base.**
+**What a sequence of real numbers is, the definition of convergence with $\epsilon$ and $N$, divergence, the course's examples (including $0.999 \cdots = 1$), the theorem that a convergent sequence is bounded, the first condition that guarantees convergence (the monotone convergence theorem), and the definition of a Cauchy sequence. Covers Lectures 2 to 5; the proof of the Cauchy convergence theorem, which Lecture 5 states and promises for next time, is not yet in this knowledge base.**
 
 Notation: $\mathbf{N} = \lbrace 1, 2, 3, \cdots \rbrace$ is the natural numbers and $\mathbf{R}$ the real numbers, set in bold as in the notes. A sequence is written $a_n$, and $\vert x \vert$ is the absolute value of $x$, which Colding often calls the "norm".
 
@@ -36,7 +36,7 @@ Then $a$ is the **limit** of the sequence, written $\lim_{n \to \infty} a_n = a$
 
 **Choosing the $\epsilon$ to use.** Because the definition holds for every $\epsilon \gt 0$, a proof may apply it to whatever positive number it needs, not only to the $\epsilon$ it was given. Lecture 4's proofs apply it to $1$ (boundedness), to $\frac{\epsilon}{\vert C \vert}$ and $\frac{\epsilon}{2}$ (the algebraic properties), and to $\frac{\vert a \vert}{2}$ (to keep $\vert a_n \vert$ away from $0$). "I'm basically using that for all epsilon, that it wasn't just for a fixed epsilon" (Lecture 4, ≈42:08). See [algebraic properties of limits](algebraic-properties-of-limits.md).
 
-**When does a limit exist?** The Lecture 3 notes pose the question and leave it open (Lecture 3 notes p. 5). So far the course has only a necessary condition, the boundedness theorem below.
+**When does a limit exist?** The Lecture 3 notes pose the question and leave it open (Lecture 3 notes p. 5). Lecture 4 gives a necessary condition, the boundedness theorem below. Lecture 5 gives the first sufficient one: a bounded monotone sequence converges (see [monotone sequences](#monotone-sequences) below).
 
 ## Example: $0.999 \cdots = 1$
 
@@ -68,22 +68,31 @@ The converse is false: $(-1)^n$ is bounded but not convergent. "It's not enough 
 
 ## Limits and the algebraic operations
 
-If $a_n \to a$, $b_n \to b$ and $C \in \mathbf{R}$, then $C a_n \to C a$, $a_n + b_n \to a + b$, $a_n b_n \to a b$, and, when $b_n \neq 0$ and $b \neq 0$, $\frac{a_n}{b_n} \to \frac{a}{b}$ (Lecture 4 notes p. 3). Statements, proofs and the "halfway" trick behind the product are on [algebraic properties of limits](algebraic-properties-of-limits.md).
+If $a_n \to a$, $b_n \to b$ and $C \in \mathbf{R}$, then $C a_n \to C a$, $a_n + b_n \to a + b$, $a_n b_n \to a b$, and, when $b_n \neq 0$ and $b \neq 0$, $\frac{a_n}{b_n} \to \frac{a}{b}$ (Lecture 4 notes p. 3). Statements, proofs and the "halfway" trick behind the product are on [algebraic properties of limits](algebraic-properties-of-limits.md). Lecture 5 reviews them with the sum as the first rule and the fourth as a reciprocal, $\frac{1}{a_n} \to \frac{1}{a}$, and applies them to show that $\frac{n^2 + 1}{n^2 + n + 1} \to 1$ (Lecture 5, ≈4:50–13:46; Lecture 5 notes pp. 1–2).
 
 ## Subsequences
 
 A subsequence of $a_n$ keeps some of its terms, infinitely many, in their original order: formally $f \circ g$ for a strictly increasing $g : \mathbf{N} \to \mathbf{N}$. A sequence converges to $a$ if and only if all its subsequences converge to $a$ (Lecture 4 notes pp. 5–6). Convergence "is always something about the tail, about the end": it never cares about finitely many terms at the start (Lecture 4, ≈1:17:28). See [subsequences](subsequences.md).
 
+## Monotone sequences
+
+A sequence is **monotone increasing** if $a_n \leq a_{n+1}$ for all $n$ and **monotone decreasing** if $a_{n+1} \leq a_n$ for all $n$ (Lecture 5 notes p. 2; Lecture 5, ≈16:07–16:54). The **monotone convergence theorem**: a monotone increasing sequence that is bounded from above converges, with limit $\sup \lbrace a_n \rbrace$, and a monotone decreasing sequence that is bounded from below converges, with limit $\inf \lbrace a_n \rbrace$ (Lecture 5 notes p. 2; Lecture 5, ≈17:43–21:51). It is the first result in the course that proves a limit exists, and Lecture 5 uses it to show that the decimals $1$, $1.4$, $1.41$, $1.414$, … converge to a number whose square is $2$. On the board, any bounded sequence gives two monotone ones, the $\sup$ and the $\inf$ of its tails (Lecture 5, ≈21:51–33:39). The theorem, its proof and both applications are on [the monotone convergence theorem](monotone-convergence-theorem.md).
+
+## Cauchy sequences
+
+A sequence $a_n$ is a **Cauchy sequence** if for all $\epsilon \gt 0$ there is an $N$ such that $\vert a_n - a_m \vert \lt \epsilon$ for $m, n \geq N$ (Lecture 5 notes p. 6; Lecture 5, ≈1:08:56–1:09:45). Unlike convergence, the definition names no limit: far out, the terms "bunch together" (≈1:10:32). Lecture 5 states, without proof, that a sequence of real numbers converges if and only if it is Cauchy (≈1:11:21). See [Cauchy sequences](cauchy-sequences.md).
+
 ## A related fact
 
-As a corollary of the [Archimedean property](archimedean-property.md), for any $\epsilon \gt 0$ there exists an $n \in \mathbf{N}$ such that $\frac{1}{n} \lt \epsilon$ (Lecture 3 notes p. 4). That is the fact the proof of $0.999 \cdots = 1$ uses to choose $N$.
+As a corollary of the [Archimedean property](archimedean-property.md), for any $\epsilon \gt 0$ there exists an $n \in \mathbf{N}$ such that $\frac{1}{n} \lt \epsilon$ (Lecture 3 notes p. 4). That is the fact the proof of $0.999 \cdots = 1$ uses to choose $N$. In Lecture 5, that $\frac{1}{n} \to 0$ "essentially just follows from the Archimedean property. But we've already seen this" (Lecture 5, ≈9:00).
 
 ## Not yet in this knowledge base
 
-On the OCW lecture list, sequences continue in Lecture 5, "Monotone Convergence Theorem" (TBB Sections 2.8, 2.9 and 2.11), Lecture 6, "Cauchy Convergence Theorem" (TBB Section 2.12), and Lecture 7, "Bolzano–Weierstrass Theorem; Cauchy Sequences; Series". None of them is covered here yet.
+On the OCW lecture list, sequences continue in Lecture 6, "Cauchy Convergence Theorem" (TBB Section 2.12), where Lecture 5 promises the proof that a sequence converges if and only if it is Cauchy, and in Lecture 7, "Bolzano–Weierstrass Theorem; Cauchy Sequences; Series" (TBB Sections 2.11–2.12 and 3.4). Neither is covered here yet. Lecture 5 also says that the $\sup$ and $\inf$ of the tails are how limsup and liminf are defined (≈1:08:10); on the OCW list those come in Lecture 9, "Limsup and Liminf; Power Series; Continuous Functions; Exponential Function", which is not covered here either.
 
 ## Lectures
 
 - [Lecture 2 — Introduction to Real Numbers (cont.)](02-introduction-to-real-numbers-cont.md): $\sqrt{2}$ as the limit of its decimals, as a preview.
 - [Lecture 3 — How to Write a Proof; Archimedean Property](03-how-to-write-a-proof-archimedean-property.md): the definition of a sequence, and in the notes, the examples and the definition of convergence.
 - [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): convergence on the board, divergence, $0.999 \cdots = 1$, boundedness, the algebraic properties of limits, and subsequences.
+- [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): monotone sequences and the monotone convergence theorem, $\sqrt{2}$ as the limit of its decimals, and the definition of a Cauchy sequence.

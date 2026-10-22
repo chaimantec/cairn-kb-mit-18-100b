@@ -253,7 +253,7 @@ Where they differ, this page follows the notes and gives the board's version wit
 
 ## Where the lecture stops
 
-The course now has convergence, its first consequences (boundedness, the algebraic properties, subsequences), and a worked proof with $\epsilon$ and $N$. Lecture 3's notes asked "When does a limit exist?", and so far the course has only a necessary condition: a convergent sequence is bounded. On the OCW lecture list, Lecture 5 is "Monotone Convergence Theorem" (TBB Sections 2.8, 2.9 and 2.11) and Lecture 6 is "Cauchy Convergence Theorem" (TBB Section 2.12). Neither is in this knowledge base yet.
+The course now has convergence, its first consequences (boundedness, the algebraic properties, subsequences), and a worked proof with $\epsilon$ and $N$. Lecture 3's notes asked "When does a limit exist?", and so far the course has only a necessary condition: a convergent sequence is bounded. [Lecture 5](05-monotone-convergence-theorem.md), "Monotone Convergence Theorem" (TBB Sections 2.8, 2.9 and 2.11), gives the first sufficient one: a bounded monotone sequence converges. On the OCW lecture list, Lecture 6 is "Cauchy Convergence Theorem" (TBB Section 2.12), which is not in this knowledge base yet.
 
 ## Related pages
 
@@ -264,3 +264,4 @@ The course now has convergence, its first consequences (boundedness, the algebra
 - [Supremum and infimum](supremum-and-infimum.md): the $\sup$ in the boundedness theorem.
 - [Writing proofs](writing-proofs.md): formal proofs versus scrap-paper outlines, and how a proof with $\epsilon$ and $N$ is laid out.
 - [Lecture 3 — How to Write a Proof; Archimedean Property](03-how-to-write-a-proof-archimedean-property.md): the previous lecture, which defined a sequence.
+- [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): the next lecture.

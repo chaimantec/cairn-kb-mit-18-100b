@@ -1,6 +1,6 @@
 # Subsequences
 
-**What a subsequence is, by example and by the formal definition (composition with a strictly increasing map $g : \mathbf{N} \to \mathbf{N}$), what is not a subsequence, and the theorem that a sequence converges to $a$ exactly when all its subsequences do. From Lecture 4; the Bolzano–Weierstrass theorem (Lecture 7) is not yet in this knowledge base.**
+**What a subsequence is, by example and by the formal definition (composition with a strictly increasing map $g : \mathbf{N} \to \mathbf{N}$), what is not a subsequence, and the theorem that a sequence converges to $a$ exactly when all its subsequences do. From Lecture 4, reviewed in Lecture 5; the Bolzano–Weierstrass theorem (Lecture 7) is not yet in this knowledge base.**
 
 Notation: $\mathbf{N} = \lbrace 1, 2, 3, \cdots \rbrace$ and $\mathbf{R}$, set in bold as in the notes. A sequence $a_n$ is a function $f : \mathbf{N} \to \mathbf{R}$ with $a_n = f(n)$; see [sequences and limits](sequences-and-limits.md).
 
@@ -27,6 +27,8 @@ A subsequence keeps infinitely many of the terms of a sequence, in their origina
 
 Strictly increasing is what excludes both non-examples. The first term can be any term of the original sequence, "but once you have fixed the first one, you can't look back": each next term has to come from further out (≈1:10:15). And because $g$ is defined on all of $\mathbf{N}$, every subsequence is infinite: "all sequences, including subsequences, are infinite things" (≈1:18:13).
 
+**Lecture 5's review** (Lecture 5, ≈0:47–3:10; Lecture 5 notes p. 1) gives the same reason for strictly increasing: the subsequence should keep the terms "in the same order than it was in the original sequence", and no term should be "picked more times than it was in the original sequence". It also says what the index means: "n k, really, you should think about it as g of k" (≈2:21). The Lecture 5 notes write the subsequence as $b_k = f(g(k))$ and add "We often write $a_{n_k}$ for $b_k$".
+
 ## Convergence of subsequences
 
 **Theorem** (Lecture 4 notes p. 5; ≈1:11:48). A sequence $a_n$ is convergent with limit $a$ if and only if all subsequences of $a_n$ are also convergent with limit $a$.
@@ -47,3 +49,4 @@ On the OCW lecture list, Lecture 7 is "Bolzano–Weierstrass Theorem; Cauchy Seq
 ## Lectures
 
 - [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): the examples, the definition, the theorem, and the closing questions about finite subsequences.
+- [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): the review of the definition, with $n_k$ read as $g(k)$.

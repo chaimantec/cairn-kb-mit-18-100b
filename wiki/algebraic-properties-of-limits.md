@@ -1,6 +1,6 @@
 # Algebraic properties of limits
 
-**Limits of sequences respect constant multiples, sums, products and quotients: the theorem as the Lecture 4 notes state it, the proofs of all four parts, and the trick of comparing through a term halfway between.**
+**Limits of sequences respect constant multiples, sums, products and quotients: the theorem as the Lecture 4 notes state it, the proofs of all four parts, the trick of comparing through a term halfway between, and how Lecture 5 uses them.**
 
 Notation: $a_n$ and $b_n$ are sequences of real numbers, $\vert x \vert$ is the absolute value of $x$ (Colding often says "norm"), $\mathbf{N} = \lbrace 1, 2, 3, \cdots \rbrace$ and $\mathbf{R}$ are set in bold as in the notes. A sequence $a_n$ converges to $a$ if for every $\epsilon \gt 0$ there is an $N \in \mathbf{N}$ with $\vert a_n - a \vert \lt \epsilon$ for all $n \geq N$; see [sequences and limits](sequences-and-limits.md).
 
@@ -87,6 +87,19 @@ and since $a$ is a constant, going further out than $N_1$ makes this smaller tha
 
 The notes' outline is the same argument with $b_n$ and $b$: it uses $\frac{1}{b_n} - \frac{1}{b} = \frac{\vert b - b_n \vert}{\vert b \vert \thinspace \vert b_n \vert}$ (printed without absolute value bars on the left, a [printed slip](../raw/notes/04-sequences-convergence.md#printed-slips)) and $\vert b_n \vert \geq \vert b \vert - \vert b_n - b \vert$ to bound the denominator from below, and leaves the details (notes p. 4).
 
+## The rules at work (Lecture 5)
+
+Lecture 5 reviews the four rules with the sum first and the constant multiple second; Colding says "I think I might have exchanged the order of 1 and 2 last time", and that there is no particular convention (Lecture 5, ≈4:50–7:20). He states the fourth rule for reciprocals: if $a_n \neq 0$ for all $n$ and $a \neq 0$, then $\frac{1}{a_n} \to \frac{1}{a}$ (≈6:29–7:20). The Lecture 5 notes keep Lecture 4's order and also state the fourth rule for a reciprocal, $c_n = \frac{1}{b_n}$ with limit $\frac{1}{b}$ (Lecture 5 notes p. 1).
+
+**A worked example** (Lecture 5 notes p. 2; Lecture 5, ≈7:20–13:46). To show $a_n = \frac{n^2 + 1}{n^2 + n + 1} \to 1$, divide the numerator and the denominator by $n^2$:
+
+$$a_n = \frac{1 + \frac{1}{n^2}}{1 + \frac{1}{n} + \frac{1}{n^2}} .$$
+
+On the board each rule is applied in turn. Since $\frac{1}{n} \to 0$, $\frac{1}{n^2} \to 0$ and the constant sequence $1$ converges to $1$, the rule for sums gives that the numerator and the denominator both converge to $1$. The denominator is never $0$ and its limit is not $0$, so the rule for reciprocals gives that $1$ over the denominator converges to $1$. Then the rule for products gives $a_n \to 1 \cdot 1 = 1$ (≈9:00–13:00). The notes say only "It now follows from the algebraic properties of limits that" $a_n \to 1$. Colding's comment: "This is the first time you see it, but you know in a couple of weeks this will feel too easy" (≈13:46).
+
+**In the proof that the decimals of $\sqrt{2}$ converge** (Lecture 5 notes p. 4; ≈56:56–1:04:58). The rule for products gives $a_n^2 \to a^2$ from $a_n \to a$, and the rules for sums and products give $\left( a_n + 10^{1-n} \right)^2 \to a^2$ from $10^{1-n} \to 0$. The step from an inequality for every term to the same inequality for the limit is used there without proof. See [the monotone convergence theorem](monotone-convergence-theorem.md).
+
 ## Lectures
 
 - [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): the statement, the proofs on the board, the students' questions, and where the board and the notes differ.
+- [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): the review, the worked example, and the rules used in the proof about $\sqrt{2}$.
