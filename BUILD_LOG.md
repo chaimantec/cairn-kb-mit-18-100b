@@ -24,6 +24,7 @@ every build follows, and each lesson in general form, are in
 | 05 Monotone Convergence Theorem | Run 5 |
 | 06 Cauchy Convergence Theorem | Run 6 |
 | 07 Bolzano–Weierstrass Theorem; Cauchy Sequences; Series | Run 7 |
+| 08 Convergence Tests for Series; Power Series | Run 8 |
 
 ## Runs
 

@@ -47,6 +47,8 @@ printed slips, which slides were rendered and why) goes in
   course's own notation rather than a tidier one, since the learner is comparing
   the page against the lecturer's board. Never open a quotation with a formula
   (`"$…`): github.com then shows it as raw text. Rephrase so the quote starts with a word.
+  A `$$` display inside a list item (`- $$`) shows as raw text there too: write a plain display
+  and say in prose that the source prints a bulleted list.
 - **Transcripts stay verbatim.** Captions spell notation out as speech ("theta
   sub j"); reconstructing it as $\theta_j$ belongs in `wiki/`, not in
   `raw/transcripts/`.
@@ -86,7 +88,9 @@ printed slips, which slides were rendered and why) goes in
   only inside a removed false start. Where
   Colding misspeaks (e.g. "denominator" for "numerator"), keep his words and add an
   *[Ed: …]* mark rather than correcting silently; an Ed mark cites its evidence (the notes,
-  a later timestamp) or says "unclear", never what he "means" by guesswork. Ed marks are spelled out like the
+  a later timestamp) or says "unclear", never what he "means" by guesswork. A spoken number that disagrees with the notes is
+  handled the same way: the edit cannot tell a misspoken number from a misheard one, so it stays as
+  captioned with an Ed mark citing the notes. Ed marks are spelled out like the
   speech around them, never notation. A caption's compressed notation ("2n" for a power of
   2) stays as captioned unless the captions themselves give the spoken form at that point:
   respelling it asserts what was said. Quote the edited transcript, never the verbatim

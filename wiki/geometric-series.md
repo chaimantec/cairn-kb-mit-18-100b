@@ -1,6 +1,6 @@
 # The geometric series
 
-**The series $\sum_{i=0}^{\infty} c^i$: the formula for its partial sums, the theorem that it converges to $\frac{1}{1-c}$ when $\vert c \vert \lt 1$ and diverges otherwise, the board's and the notes' proofs of divergence, and why it is the series other series are compared with. From Lecture 7.**
+**The series $\sum_{i=0}^{\infty} c^i$: the formula for its partial sums, the theorem that it converges to $\frac{1}{1-c}$ when $\vert c \vert \lt 1$ and diverges otherwise, the board's and the notes' proofs of divergence, why it is the series other series are compared with, its role in the ratio and root tests, and $\sum x^n = \frac{1}{1-x}$ as the first power series. From Lectures 7 and 8.**
 
 Notation: $c$ is a real number, $\vert c \vert$ its absolute value (Colding's "norm"), and $s_n$ the $n$-th partial sum. The geometric series starts at $i = 0$, so $s_n$ has $n + 1$ terms (Lecture 7, ≈33:22). What a series is, and what it means for one to converge, is on [series](series.md).
 
@@ -13,6 +13,8 @@ $$s_n = \sum_{i=0}^{n} c^i ,$$
 so $s_0 = 1$ (since $c^0 = 1$), $s_1 = 1 + c$, $s_2 = 1 + c + c^2$, and so on. "So this is the most important series" (≈26:56).
 
 **Why it matters** (≈26:56–29:17). It is "a non-trivial series that can be used to determine whether other series" converge: "you can compare other series with the geometric series. And the geometric series is easier … to determine whether it is convergent or not" (≈28:32–29:17). In Lecture 7 it is the comparison behind the convergence of $\sum \frac{1}{n^2}$ (see [the harmonic series](harmonic-series.md)), and, answering a question at the end, Colding says it is one that "come up often as a kind of comparison" (≈1:20:42). The notes' example of the comparison test compares with $\sum 2^{-n}$, the geometric series with $c = \frac{1}{2}$ started at $n = 1$ (Lecture 7 notes p. 5; see [convergence tests for series](convergence-tests-for-series.md)).
+
+Lecture 8 makes the point again. "So the most important is the geometric series", because it is easy to decide whether it converges and it can be used to decide whether other series do (Lecture 8, ≈5:46–6:34). The ratio test and the root test "are based on comparison with the geometric series. And so this is explaining why the geometric series is so crucial" (≈41:18). Their proofs bound $\vert a_n \vert$ far out by a constant times $\alpha^m$, or by $c_0^n$, for a number $\alpha$ or $c_0$ less than $1$, and compare with the convergent geometric series (≈45:18–52:36, ≈59:46–1:04:09). In case 2 of each test the comparison is with a number greater than $1$, and the terms blow up. See [convergence tests for series](convergence-tests-for-series.md).
 
 ## The formula for the partial sums
 
@@ -44,10 +46,21 @@ A convergent sequence is a Cauchy sequence (≈43:16), but here "not even two co
 
 **Proof of divergence: the notes** (notes p. 3). From the formula, "Therefore, $s_n$ converges with limit $\frac{1}{1-c}$ if $\vert c \vert \lt 1$ and diverges if $\vert c \vert \gt 1$ or $c = -1$. One easily checks, separately, that it also diverges for $c = 1$." The notes give no further detail for the divergent cases.
 
+**Lecture 8's review** (Lecture 8, ≈7:26–8:59). In Lecture 8 the divergence is read off the terms. If $c = 1$, every term is $1$, "But that does not go to 0. So that's clearly diverging" (≈8:13). If $c = -1$, the terms alternate between $1$ and $-1$ and do not go to $0$ (≈8:13). If $\vert c \vert \gt 1$, they are "even blowing up" (≈8:59). This is the first check for any series (see [series](series.md#first-check-do-the-terms-go-to-zero)). The Lecture 8 notes state only "Convergent precisely when $\vert c \vert \lt 1$", and print the summand as $c^{i}n$, a slip (Lecture 8 notes p. 1).
+
+## The first power series
+
+With the number called $x$ instead of $c$, the geometric series is the first example of a power series (Lecture 8, ≈1:07:35):
+
+$$\sum_{n=0}^{\infty} x^n = \frac{1}{1 - x} \qquad \text{for } \vert x \vert \lt 1$$
+
+(Lecture 8 notes pp. 4–5). For each fixed $x$ it is the geometric series, so it converges for $\vert x \vert \lt 1$ and diverges otherwise (≈1:13:57–1:14:58), and "the sum here is just this familiar function" (≈1:09:12). See [power series](power-series.md).
+
 ## Not yet in this knowledge base
 
-On the OCW lecture list, Lecture 8 is "Convergence Tests for Series; Power Series" (TBB Sections 3.5–3.6). It is not covered here yet.
+On the OCW lecture list, Lecture 9 is "Limsup and Liminf; Power Series; Continuous Functions; Exponential Function" (TBB Sections 2.13, 10.2, 5.4 and 5.5), which is not yet in this knowledge base.
 
 ## Lectures
 
 - [Lecture 7 — Bolzano–Weierstrass Theorem; Cauchy Sequences; Series](07-bolzano-weierstrass-theorem-cauchy-sequences-series.md): the formula, the theorem and both proofs, and the comparison for $\sum \frac{1}{n^2}$.
+- [Lecture 8 — Convergence Tests for Series; Power Series](08-convergence-tests-for-series-power-series.md): the review, the ratio and root tests built on it, and $\sum x^n$ as a power series.

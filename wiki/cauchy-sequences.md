@@ -1,6 +1,6 @@
 # Cauchy sequences
 
-**The definition of a Cauchy sequence and how it differs from convergence (Lecture 5); the theorem that a Cauchy sequence is bounded, and the proof that every Cauchy sequence of real numbers converges, from the Bolzano–Weierstrass theorem (Lecture 6), which Lecture 7 proves; the theorem's uses for series in Lecture 7; and what is still missing: the converse, that a convergent sequence is Cauchy, is stated and used but not proved in the material here.**
+**The definition of a Cauchy sequence and how it differs from convergence (Lecture 5); the theorem that a Cauchy sequence is bounded, and the proof that every Cauchy sequence of real numbers converges, from the Bolzano–Weierstrass theorem (Lecture 6), which Lecture 7 proves; the theorem's uses for series in Lectures 7 and 8, and Lecture 8's answer to why Cauchy sequences are convenient; and what is still missing: the converse, that a convergent sequence is Cauchy, is stated and used but not proved in the material here.**
 
 Notation: $\mathbf{N}$ and $\mathbf{R}$ are the natural and the real numbers, set in bold as in the notes, $\vert x \vert$ is the absolute value of $x$, and a subsequence of $a_n$ is written $a_{n_k}$ (see [subsequences](subsequences.md)). On the board in Lecture 6 the sequence is called $x_n$; the notes call it $a_n$, as here.
 
@@ -60,8 +60,11 @@ The notes take the last step "if $n \geq N$ and $k \geq N$"; on the board the ca
 - **Newton's method** (Lecture 6, ≈37:31–49:32; notes pp. 2–3), through the contracting mapping theorem.
 - **The extreme value theorem.** Colding introduces it as "another application of the Cauchy convergence theorem" (Lecture 6, ≈58:28), but the proof uses the Bolzano–Weierstrass theorem directly (≈1:11:40). See [the extreme value theorem](extreme-value-theorem.md).
 - **Absolute convergence implies convergence** (Lecture 7, ≈1:02:21–1:05:31; Lecture 7 notes pp. 3–4). If $\sum \vert a_i \vert$ converges, its partial sums form a Cauchy sequence; the partial sums of $\sum a_i$ differ by no more, so they are Cauchy too, and they converge by the Cauchy convergence theorem. See [series](series.md#absolute-convergence).
+- **The comparison test** (Lecture 8, ≈24:38–29:17). If $0 \leq a_n \leq b_n$, the difference of two partial sums of the $a_n$ is at most the corresponding difference for the $b_n$. So when the series of the $b_n$ converges, the partial sums of the $a_n$ form a Cauchy sequence and converge. See [convergence tests for series](convergence-tests-for-series.md).
 
-Lecture 7 also uses the other direction, that a convergent sequence is a Cauchy sequence, three times: in the absolute-convergence proof above, for the partial sums of $\sum \vert a_i \vert$ (≈1:04:44); to show that the geometric series diverges when $\vert c \vert \geq 1$, because consecutive partial sums stay at least $1$ apart, "Remember that if a sequence is convergent, if a sequence is convergent, then it is a Cauchy sequence" (≈43:16); and to show that a series whose terms do not go to $0$ diverges (≈55:11). See [the geometric series](geometric-series.md) and [series](series.md#first-check-do-the-terms-go-to-zero). The proof of that direction is still not in the material here; the Lecture 7 notes' recap states only "Every Cauchy sequence is convergent" (Lecture 7 notes p. 1).
+**Why use Cauchy sequences here?** A student asked this in Lecture 8, recalling the original definition of convergence. Colding: "So if you went all the way back to the definition, then you would have to determine what the limit was" (Lecture 8, ≈27:45), and knowing the sum of one series does not give the sum of the other. "So the advantage with Cauchy sequence is that you don't have to figure out what the limit is" (≈28:31). The same test also has a proof by the monotone convergence theorem, which he gives next (≈29:17–30:48).
+
+Lecture 7 also uses the other direction, that a convergent sequence is a Cauchy sequence, three times: in the absolute-convergence proof above, for the partial sums of $\sum \vert a_i \vert$ (≈1:04:44); to show that the geometric series diverges when $\vert c \vert \geq 1$, because consecutive partial sums stay at least $1$ apart, "Remember that if a sequence is convergent, if a sequence is convergent, then it is a Cauchy sequence" (≈43:16); and to show that a series whose terms do not go to $0$ diverges (≈55:11). See [the geometric series](geometric-series.md) and [series](series.md#first-check-do-the-terms-go-to-zero). Lecture 8 uses it twice more: for the same check on the terms, now by taking $m = n - 1$ in the Cauchy condition for the partial sums (Lecture 8, ≈2:27–5:46), and in the first proof of the comparison test, for the partial sums of the $b_n$ (≈29:17). The proof of that direction is still not in the material here; the Lecture 7 notes' recap states only "Every Cauchy sequence is convergent" (Lecture 7 notes p. 1).
 
 ## From the notes: Cauchy
 
@@ -69,10 +72,11 @@ The Lecture 5 notes quote a short biography "From Wikipedia": Baron Augustin-Lou
 
 ## Not yet in this knowledge base
 
-On the OCW lecture list, Lecture 8 is "Convergence Tests for Series; Power Series" (TBB Sections 3.5–3.6) and Lecture 12 is "Convergence in Metric Spaces; Operations on Sets". Neither is covered here yet.
+On the OCW lecture list, Lecture 12 is "Convergence in Metric Spaces; Operations on Sets", which is not yet in this knowledge base.
 
 ## Lectures
 
 - [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): the definition and the statement of the theorem.
 - [Lecture 6 — Cauchy Convergence Theorem](06-cauchy-convergence-theorem.md): boundedness, the proof that a Cauchy sequence converges, and the applications.
 - [Lecture 7 — Bolzano–Weierstrass Theorem; Cauchy Sequences; Series](07-bolzano-weierstrass-theorem-cauchy-sequences-series.md): the proof of the Bolzano–Weierstrass theorem, and both directions of the Cauchy convergence theorem used for series.
+- [Lecture 8 — Convergence Tests for Series; Power Series](08-convergence-tests-for-series-power-series.md): the check on the terms and the first proof of the comparison test, and why Cauchy sequences avoid naming the limit.

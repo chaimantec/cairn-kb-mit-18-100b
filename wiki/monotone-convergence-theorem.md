@@ -1,6 +1,6 @@
 # The monotone convergence theorem
 
-**Monotone increasing and decreasing sequences, the theorem that a bounded monotone sequence converges (to the $\sup$ or the $\inf$ of its terms), its proof from the least upper bound, the two monotone sequences built from any bounded sequence, and the application to $\sqrt{2}$ as the limit of its decimals. From Lecture 5; and its uses in Lecture 7, in the proof of the Bolzano–Weierstrass theorem and for series of non-negative terms.**
+**Monotone increasing and decreasing sequences, the theorem that a bounded monotone sequence converges (to the $\sup$ or the $\inf$ of its terms), its proof from the least upper bound, the two monotone sequences built from any bounded sequence, and the application to $\sqrt{2}$ as the limit of its decimals. From Lecture 5; and its uses in Lectures 7 and 8, in the proof of the Bolzano–Weierstrass theorem, for series of non-negative terms, in a proof of the comparison test, and behind the Lecture 8 notes' definition of $\limsup$.**
 
 Notation: $\mathbf{N} = \lbrace 1, 2, 3, \cdots \rbrace$ and $\mathbf{R}$ are the natural and the real numbers, set in bold as in the notes. A sequence is written $a_n$, and $\sup \lbrace a_n \rbrace$ and $\inf \lbrace a_n \rbrace$ are the least upper bound and the greatest lower bound of the set of its terms (see [supremum and infimum](supremum-and-infimum.md)).
 
@@ -75,17 +75,20 @@ He says this construction "will play an important role when we prove the basic t
 
 Two facts that the application relies on are asserted in Lecture 5 rather than proved. One is that a limit keeps an inequality that every term satisfies, with a strict inequality becoming non-strict in the limit (≈58:38, ≈1:04:58–1:07:23); the related claim that $c \leq b$ for the tails construction is promised: "we'll prove this later" (≈32:54). The other is that $\frac{1}{n^2}$ and $10^{1-n}$ tend to $0$ (≈9:00, ≈1:04:13).
 
-## Uses in Lecture 7
+## Uses in Lectures 7 and 8
 
 - **The Bolzano–Weierstrass theorem** (Lecture 7, ≈7:07–7:54, ≈21:22; Lecture 7 notes p. 1). The left endpoints $b_k$ of the halved intervals increase and stay below the first right endpoint, and the right endpoints $c_k$ decrease and stay above the first left endpoint, so both converge: "And so this is a monotone sequence that go up, but it's bounded, so it has a limit" (≈7:07). Their limits are equal because $c_k - b_k = 2^{1-k}$, and the subsequence squeezed between them converges to the same limit. See [the Bolzano–Weierstrass theorem](bolzano-weierstrass-theorem.md).
-- **Series of non-negative terms** (Lecture 7, ≈56:43–57:30; Lecture 7 notes p. 4). If every $a_n \geq 0$, the partial sums $s_n$ increase, so the series converges if and only if they are bounded: "The claim now follows from the monotone convergence theorem" (Lecture 7 notes p. 4). Lecture 7 uses this for the series of $\frac{1}{n^2}$. See [series](series.md#series-of-non-negative-terms).
+- **Series of non-negative terms** (Lecture 7, ≈56:43–57:30; Lecture 7 notes p. 4). If every $a_n \geq 0$, the partial sums $s_n$ increase, so the series converges if and only if they are bounded: "The claim now follows from the monotone convergence theorem" (Lecture 7 notes p. 4). Lecture 7 uses this for the series of $\frac{1}{n^2}$, and Lecture 8 reviews it (Lecture 8, ≈19:30–21:58; Lecture 8 notes p. 2). See [series](series.md#series-of-non-negative-terms).
+- **The comparison test** (Lecture 8, ≈29:17–30:48). If $0 \leq a_n \leq b_n$ and the series of the $b_n$ converges, its partial sums are bounded by some $c$. The partial sums of the $a_n$ are at most those of the $b_n$, so they form a monotone increasing sequence bounded by $c$, and they converge. Colding says he "should probably have done it using the monotone convergence theorem" rather than with Cauchy sequences (≈28:31). See [convergence tests for series](convergence-tests-for-series.md).
+- **$\limsup$** (Lecture 8 notes p. 6; not in the lecture). The notes define $\limsup a_n$ as the limit of the decreasing sequence $b_n = \sup \lbrace a_n, a_{n+1}, \cdots \rbrace$, the first half of the tails construction above: "Since the sequence $b_n$ is decreasing it is converging with limit $b$ that possibly could be $-\infty$ if the sequence $b_n$ is not bounded from below" (notes p. 6). See [limsup and liminf](limsup-and-liminf.md).
 
 ## Not yet in this knowledge base
 
-Lecture 6 opens by recalling the theorem (Lecture 6, ≈0:00–1:37) and is covered on [its own page](06-cauchy-convergence-theorem.md). On the OCW lecture list, Lecture 9 is "Limsup and Liminf; Power Series; Continuous Functions; Exponential Function", which is not covered here yet. The OCW readings for Lecture 5 are TBB Sections 2.8, 2.9 and 2.11.
+Lecture 6 opens by recalling the theorem (Lecture 6, ≈0:00–1:37) and is covered on [its own page](06-cauchy-convergence-theorem.md). The Lecture 8 notes define $\limsup$ from the tails construction, but $\liminf$ is not yet defined. On the OCW lecture list, Lecture 9 is "Limsup and Liminf; Power Series; Continuous Functions; Exponential Function" (TBB Sections 2.13, 10.2, 5.4 and 5.5), which is not yet in this knowledge base. The OCW readings for Lecture 5 are TBB Sections 2.8, 2.9 and 2.11.
 
 ## Lectures
 
 - [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): the definition, the theorem, its proof, the tails construction and the $\sqrt{2}$ application.
 - [Lecture 4 — Sequences; Convergence](04-sequences-convergence.md): convergence, and the boundedness theorem that the monotone convergence theorem complements.
 - [Lecture 7 — Bolzano–Weierstrass Theorem; Cauchy Sequences; Series](07-bolzano-weierstrass-theorem-cauchy-sequences-series.md): the theorem used for the endpoints in the Bolzano–Weierstrass proof and for series of non-negative terms.
+- [Lecture 8 — Convergence Tests for Series; Power Series](08-convergence-tests-for-series-power-series.md): series of non-negative terms, a proof of the comparison test, and in the notes $\limsup$.

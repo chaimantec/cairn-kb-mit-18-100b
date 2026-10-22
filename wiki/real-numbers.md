@@ -36,7 +36,9 @@ The sentence above is the answer, and it is exactly what the proof of the interm
 
 **In Lecture 7:** the proof of the Bolzano–Weierstrass theorem, so that the Cauchy convergence theorem of Lecture 6 no longer rests on a promise. A bounded sequence is trapped in smaller and smaller halves of an interval, and the endpoints of the halves are two monotone sequences that converge, by the monotone convergence theorem and so by completeness, to the same limit (Lecture 7, ≈2:25–22:12). The lecture then starts on series, the sequences of partial sums of a sequence. See [Lecture 7](07-bolzano-weierstrass-theorem-cauchy-sequences-series.md), [the Bolzano–Weierstrass theorem](bolzano-weierstrass-theorem.md) and [series](series.md).
 
-**Not yet:** on the OCW lecture list, Lecture 8 is "Convergence Tests for Series; Power Series". **This knowledge base covers Lectures 1 to 7 only.**
+**In Lecture 8:** tests for the convergence of series, and the first power series. The comparison test is proved from the Cauchy convergence theorem and again from the monotone convergence theorem, and the ratio and root tests by comparison with the geometric series (Lecture 8, ≈24:38–1:07:35). See [Lecture 8](08-convergence-tests-for-series-power-series.md), [convergence tests for series](convergence-tests-for-series.md) and [power series](power-series.md).
+
+**Not yet:** on the OCW lecture list, Lecture 9 is "Limsup and Liminf; Power Series; Continuous Functions; Exponential Function". **This knowledge base covers Lectures 1 to 8 only.**
 
 ## Lectures
 
@@ -47,3 +49,4 @@ The sentence above is the answer, and it is exactly what the proof of the interm
 - [Lecture 5 — Monotone Convergence Theorem](05-monotone-convergence-theorem.md): bounded monotone sequences converge; $\sqrt{2}$ as the limit of its decimals.
 - [Lecture 6 — Cauchy Convergence Theorem](06-cauchy-convergence-theorem.md): Cauchy sequences of real numbers converge, from the Bolzano–Weierstrass theorem.
 - [Lecture 7 — Bolzano–Weierstrass Theorem; Cauchy Sequences; Series](07-bolzano-weierstrass-theorem-cauchy-sequences-series.md): the proof of the Bolzano–Weierstrass theorem.
+- [Lecture 8 — Convergence Tests for Series; Power Series](08-convergence-tests-for-series-power-series.md): convergence tests for series, proved from the Cauchy and monotone convergence theorems.

@@ -1,6 +1,6 @@
 # The harmonic series
 
-**The harmonic series $\sum \frac{1}{n}$ and the proof that it diverges ($s_{2^n - 1} \geq \frac{n}{2}$, by induction); the alternating harmonic series, which converges but not absolutely; and the series of $\frac{1}{n^2}$, which converges, proved by the same halving idea run the other way. From Lecture 7.**
+**The harmonic series $\sum \frac{1}{n}$ and the proof that it diverges ($s_{2^n - 1} \geq \frac{n}{2}$, by induction); the alternating harmonic series, which converges but not absolutely; the series of $\frac{1}{n^2}$, which converges, proved by the same halving idea run the other way; the family $\sum \frac{1}{n^{\alpha}}$; and Lecture 8's explanation of why the alternating harmonic series converges. From Lectures 7 and 8.**
 
 Notation: $s_n$ is the $n$-th partial sum of the series in question, and $s_{2^n - 1}$ the partial sum up to the term with index $2^n - 1$. What a series is, and what it means for one to converge, is on [series](series.md). The captions write the powers $2^n$ as "2n".
 
@@ -47,6 +47,8 @@ $$\sum_{n=1}^{\infty} \frac{(-1)^n}{n}$$
 
 "It's called the alternating harmonic series" (≈1:00:40). Its signs alternate, "the first one is negative. The next one is positive" (≈1:01:34). It is convergent but not absolutely convergent, since with absolute values it is the harmonic series (≈1:01:34; notes p. 3). It is the course's example that convergence does not imply absolute convergence (see [series](series.md#absolute-convergence)). Its convergence is not proved in Lecture 7: "And we haven't yet proved that it's converging, but we'll do that in some later lecture" (≈1:00:40).
 
+**Why it converges, in words** (Lecture 8, ≈13:52–19:30; board only). Lecture 8 returns to it as the reason absolute convergence is stronger than convergence. Starting from $0$ before any term is added, the first partial sum $s_1 = -1$ brings you down to $-1$ (≈16:21–17:08). The second, $s_2 = -1 + \frac{1}{2}$, brings you back towards $0$, "But you don't go as far up as you went down, because it's 1 over 2" (≈17:57). The third, $s_3 = s_2 - \frac{1}{3}$, goes down again but not as far as before (≈17:57–18:44). The partial sums swing back and forth, and the interval they swing in "gets smaller and smaller" (≈18:44). "And so you could make this more precise. It's quite easy. And this shows you that this series is converging" (≈18:44). This is "the basis for this alternating series test". In words, the test needs the signs to alternate and "the absolute value goes to 0" (≈18:44). Neither the precise argument nor the test is given: "We'll probably come back to that in a later lecture in a more general setting" (≈15:28).
+
 ## The series of $\frac{1}{n^2}$ converges
 
 "So maybe the most important series is the geometric series. After that, you can debate a little bit which series is the most important" (Lecture 7, ≈1:06:20). The series
@@ -76,12 +78,21 @@ $$s_{2^{n+1} - 1} \leq \sum_{i=0}^{n-1} \left( \frac{1}{2} \right)^i + 2^n \frac
 
 "I mean, again, this is not necessarily how I would do it. But the advantage with this here is that it doesn't use anything fancy" (≈1:08:40). Asked at the end how one finds such a claim, Colding said: "Obviously you don't start with the claim. You're looking at the first few things and you see a pattern, basically" (≈1:21:28), and sketched the integral test, which compares the sum with the area under a curve (≈1:21:28–1:22:19). The integral test is not stated in the lecture or the notes.
 
-**The ratio test cannot decide either series.** The notes' ratio test (see [convergence tests for series](convergence-tests-for-series.md)) gives $\frac{a_{n+1}}{a_n} \to 1$ for both $a_n = \frac{1}{n}$ and $a_n = \frac{1}{n^2}$, "so the test is inconclusive", although the first series diverges and the second converges (Lecture 7 notes pp. 6–7).
+## The family $\sum \frac{1}{n^{\alpha}}$ (Lecture 8)
+
+The harmonic series "sits inside a larger family of series" (Lecture 8, ≈9:44):
+
+$$\sum_{n=1}^{\infty} \frac{1}{n^{\alpha}} , \qquad \alpha \geq 1$$
+
+(≈10:30). For $\alpha = 1$ it is the harmonic series and diverges. For $\alpha = 2$ Lecture 7 proved convergence, "But in fact, you can prove that for any alpha strictly bigger than 1, it does converge" (≈11:16). The usual tool is the integral test, "and we'll talk about that at some later lecture" (≈11:16). Neither the general statement nor the test is proved yet, and the notes do not mention the family.
+
+**The ratio test cannot decide either series.** The notes' ratio test (see [convergence tests for series](convergence-tests-for-series.md)) gives $\frac{a_{n+1}}{a_n} \to 1$ for both $a_n = \frac{1}{n}$ and $a_n = \frac{1}{n^2}$, "so the test is inconclusive", although the first series diverges and the second converges (Lecture 7 notes pp. 6–7; Lecture 8 notes pp. 3–4).
 
 ## Not yet in this knowledge base
 
-The convergence of the alternating harmonic series and the integral test are promised for later. On the OCW lecture list, Lecture 8 is "Convergence Tests for Series; Power Series" (TBB Sections 3.5–3.6), which is not covered here yet.
+A proof that the alternating harmonic series converges, the alternating series test, the integral test, and the convergence of $\sum \frac{1}{n^{\alpha}}$ for $\alpha \gt 1$ are all promised for later lectures (Lecture 8, ≈11:16, ≈15:28). On the OCW lecture list, Lecture 9 is "Limsup and Liminf; Power Series; Continuous Functions; Exponential Function" (TBB Sections 2.13, 10.2, 5.4 and 5.5), which is not yet in this knowledge base.
 
 ## Lectures
 
 - [Lecture 7 — Bolzano–Weierstrass Theorem; Cauchy Sequences; Series](07-bolzano-weierstrass-theorem-cauchy-sequences-series.md): the harmonic series, the alternating harmonic series and the series of $\frac{1}{n^2}$.
+- [Lecture 8 — Convergence Tests for Series; Power Series](08-convergence-tests-for-series-power-series.md): the family $\sum \frac{1}{n^{\alpha}}$ and the picture of the alternating harmonic series.

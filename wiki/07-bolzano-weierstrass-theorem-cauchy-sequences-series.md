@@ -209,7 +209,7 @@ is convergent: the series "where you slap absolute values on them" (≈59:09).
 
 $$\sum_{n=1}^{\infty} \frac{(-1)^n}{n}$$
 
-is convergent but not absolutely convergent: with absolute values it becomes the harmonic series, which diverges (≈1:01:34; notes p. 3). "It's called the alternating harmonic series" (≈1:00:40). Alternating "means that the sign of it is alternating": "the first one is negative. The next one is positive" (≈1:01:34). Its convergence is not proved here: "And we haven't yet proved that it's converging, but we'll do that in some later lecture" (≈1:00:40). The notes: "We will see later that the series" converges (notes p. 3). The notes print the sum without an upper limit.
+is convergent but not absolutely convergent: with absolute values it becomes the harmonic series, which diverges (≈1:01:34; notes p. 3). "It's called the alternating harmonic series" (≈1:00:40). Alternating "means that the sign of it is alternating": "the first one is negative. The next one is positive" (≈1:01:34). Its convergence is not proved here: "And we haven't yet proved that it's converging, but we'll do that in some later lecture" (≈1:00:40). Lecture 8 explains it in words, without a proof (see [the harmonic series](harmonic-series.md#the-alternating-harmonic-series)). The notes: "We will see later that the series" converges (notes p. 3). The notes print the sum without an upper limit.
 
 **Proof that absolute convergence implies convergence** (notes pp. 3–4; ≈1:02:21–1:05:31). Take the partial sums of the series and of the series of absolute values. On the board the second is written with a bar, "I denote it with a bar" (≈1:02:21):
 
@@ -272,7 +272,7 @@ $$s_{2^{n+1} - 1} \leq \sum_{i=0}^{n-1} \left( \frac{1}{2} \right)^i + 2^n \frac
 
 $$0 \leq a_n \leq b_n .$$
 
-If $\sum_{n=1}^{\infty} b_n$ is convergent, then so is $\sum_{n=1}^{\infty} a_n$ (notes p. 5). "And this is the simplest version of the comparison test" (≈1:19:10). The captions garble the first inequality (≈1:18:21); the notes have $0 \leq a_n \leq b_n$. Neither the lecture nor the notes prove the test.
+If $\sum_{n=1}^{\infty} b_n$ is convergent, then so is $\sum_{n=1}^{\infty} a_n$ (notes p. 5). "And this is the simplest version of the comparison test" (≈1:19:10). The captions garble the first inequality (≈1:18:21); the notes have $0 \leq a_n \leq b_n$. Neither this lecture nor its notes prove the test; Lecture 8 proves it on the board, in two ways (see [Lecture 8](08-convergence-tests-for-series-power-series.md)).
 
 **How it is used** (≈1:19:10–1:20:42). A complicated series can be compared with a much simpler one whose convergence is already known (≈1:19:56). It works in both directions: "It's used to both determine that a series is convergent. … And it's also used to determine that the series is divergent", by comparing with a series "you already know is divergent" (≈1:19:56–1:20:42). "So there's a little bit more about tests in the lecture notes. But we will, anyway, talk about it more next time" (≈1:20:42).
 
@@ -282,7 +282,7 @@ A student asked about the intuition behind the claim in the $\frac{1}{n^2}$ proo
 
 ## From the notes only: more tests (notes pp. 5–7)
 
-The notes go beyond the lecture with an example of the first comparison test, a second comparison test and the ratio test. The lecture does not reach them; Colding says tests will be discussed more next time (≈1:20:42). On the OCW lecture list, Lecture 8 is "Convergence Tests for Series; Power Series" (TBB Sections 3.5–3.6), which is not yet in this knowledge base. None of the tests below is proved in the notes.
+The notes go beyond the lecture with an example of the first comparison test, a second comparison test and the ratio test. The lecture does not reach them; Colding says tests will be discussed more next time (≈1:20:42). [Lecture 8](08-convergence-tests-for-series-power-series.md) takes them up on the board, proves the first comparison test and sketches a proof of the ratio test. None of the tests below is proved in the Lecture 7 notes.
 
 **Example** (notes p. 5). The series
 
@@ -333,7 +333,7 @@ Where they differ, this page follows the notes and gives the board's version wit
 
 ## Where the lecture stops
 
-With the Bolzano–Weierstrass theorem proved, the Cauchy convergence theorem of Lecture 6 now rests only on results proved in the course, together with the facts used here without proof: that a sequence squeezed between two sequences with the same limit has that limit, and how the general bounded case reduces to $[0, 1]$. The lecture then sets up series: the definition through partial sums, the geometric series as the basic comparison, the divergent harmonic series and the convergent $\sum \frac{1}{n^2}$, the check that the terms tend to $0$, and absolute convergence, which implies convergence. Several things are used without proof or left for later: that $\vert c \vert^{n} \to 0$ when $\vert c \vert \lt 1$; that a convergent sequence is Cauchy, used for the divergence of the geometric series (≈43:16), for the check on the terms (≈55:11) and for absolute convergence (≈1:04:44), and still without a proof in this knowledge base; the convergence of the alternating harmonic series (≈1:00:40); and the comparison test itself. On the OCW lecture list, Lecture 8 is "Convergence Tests for Series; Power Series" (TBB Sections 3.5–3.6), which is not yet in this knowledge base.
+With the Bolzano–Weierstrass theorem proved, the Cauchy convergence theorem of Lecture 6 now rests only on results proved in the course, together with the facts used here without proof: that a sequence squeezed between two sequences with the same limit has that limit, and how the general bounded case reduces to $[0, 1]$. The lecture then sets up series: the definition through partial sums, the geometric series as the basic comparison, the divergent harmonic series and the convergent $\sum \frac{1}{n^2}$, the check that the terms tend to $0$, and absolute convergence, which implies convergence. Several things are used without proof or left for later: that $\vert c \vert^{n} \to 0$ when $\vert c \vert \lt 1$; that a convergent sequence is Cauchy, used for the divergence of the geometric series (≈43:16), for the check on the terms (≈55:11) and for absolute convergence (≈1:04:44), and still without a proof in this knowledge base; the convergence of the alternating harmonic series (≈1:00:40); and the comparison test itself, which [Lecture 8](08-convergence-tests-for-series-power-series.md) proves along with the ratio and root tests.
 
 ## Related pages
 
@@ -348,3 +348,4 @@ With the Bolzano–Weierstrass theorem proved, the Cauchy convergence theorem of
 - [Sequences and limits](sequences-and-limits.md): convergence and boundedness.
 - [Writing proofs](writing-proofs.md): this lecture's proofs by induction, and Colding's remark that you do not start with the claim.
 - [Lecture 6 — Cauchy Convergence Theorem](06-cauchy-convergence-theorem.md): the previous lecture, which assumed the Bolzano–Weierstrass theorem.
+- [Lecture 8 — Convergence Tests for Series; Power Series](08-convergence-tests-for-series-power-series.md): the next lecture, which proves the comparison, ratio and root tests and introduces power series.
